@@ -1,0 +1,509 @@
+{
+  "n0": {
+    "id": "n0",
+    "name": "J.A.X",
+    "camelizeName": "j.A.X",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Lose 3 HP.\nGain 2 strength.\nExhaust. \n(Obtained from event.)"
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Lose 3 HP.\nGain 3 strength.\nExhaust. \n(Obtained from event.)"
+    }
+  },
+  "n1": {
+    "id": "n1",
+    "name": "Shiv",
+    "camelizeName": "shiv",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "0",
+      "description": "Deal 4 damage.\nExhaust. \n(Obtained from the effects of various cards.)"
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Deal 4 damage.\nExhaust. \n(Obtained from the effects of various cards.)"
+    }
+  },
+  "n2": {
+    "id": "n2",
+    "name": "Bandage Up",
+    "camelizeName": "bandageUp",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Heal 4.\nExhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Heal 4.\nExhaust."
+    }
+  },
+  "n3": {
+    "id": "n3",
+    "name": "Blind",
+    "camelizeName": "blind",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Apply 2 Weak"
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Apply 2 Weak"
+    }
+  },
+  "n4": {
+    "id": "n4",
+    "name": "Dark Shackles",
+    "camelizeName": "darkShackles",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Enemy loses 9 strength for the rest of this turn.\nExhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Enemy loses 9 strength for the rest of this turn.\nExhaust."
+    }
+  },
+  "n5": {
+    "id": "n5",
+    "name": "Deep Breath",
+    "camelizeName": "deepBreath",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Shuffle your discard pile into your draw pile.\nDraw 1 card"
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Shuffle your discard pile into your draw pile.\nDraw 1 card"
+    }
+  },
+  "n6": {
+    "id": "n6",
+    "name": "Dramatic Entrance",
+    "camelizeName": "dramaticEntrance",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "0",
+      "description": "Innate.\nDeal 6 damage to all enemies. \nExhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Innate.\nDeal 8 damage to all enemies. \nExhaust."
+    }
+  },
+  "n7": {
+    "id": "n7",
+    "name": "Finesse",
+    "camelizeName": "finesse",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Gain 2 block.\nDraw 1 card."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Gain 2 block.\nDraw 1 card."
+    }
+  },
+  "n8": {
+    "id": "n8",
+    "name": "Flash of Steel",
+    "camelizeName": "flashOfSteel",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "0",
+      "description": "Deal 3 damage.\nDraw 1 card."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Deal 3 damage.\nDraw 1 card."
+    }
+  },
+  "n9": {
+    "id": "n9",
+    "name": "Good Instincts",
+    "camelizeName": "goodInstincts",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Gain 4 block."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Gain 4 block."
+    }
+  },
+  "n10": {
+    "id": "n10",
+    "name": "Jack Of All Trades",
+    "camelizeName": "jackOfAllTrades",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Add a random colorless card to your hand.\nExhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Add 2 random colorless card to your hand.\nExhaust."
+    }
+  },
+  "n11": {
+    "id": "n11",
+    "name": "Madness",
+    "camelizeName": "madness",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "A random card in your hand costs 0 for the rest of combat. Exhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "A random card in your hand costs 0 for the rest of combat. Exhaust."
+    }
+  },
+  "n12": {
+    "id": "n12",
+    "name": "Mind Blast",
+    "camelizeName": "mindBlast",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "0",
+      "description": "Deal damage equal to the number of cards in your draw pile."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Deal damage equal to the number of cards in your draw pile."
+    }
+  },
+  "n13": {
+    "id": "n13",
+    "name": "Panacea",
+    "camelizeName": "panacea",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Gain 1 Artifact.\nExhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Gain 1 Artifact.\nExhaust."
+    }
+  },
+  "n14": {
+    "id": "n14",
+    "name": "Purity",
+    "camelizeName": "purity",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Choose and exhaust 3 cards in your hand. Exhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Choose and exhaust 5 cards in your hand. Exhaust."
+    }
+  },
+  "n15": {
+    "id": "n15",
+    "name": "Swift Strike",
+    "camelizeName": "swiftStrike",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "0",
+      "description": "Deal 5 damage."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Deal 5 damage."
+    }
+  },
+  "n16": {
+    "id": "n16",
+    "name": "Trip",
+    "camelizeName": "trip",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Apply 2 Vulnerable. (to ALL enemies)"
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Apply 2 Vulnerable. (to ALL enemies)"
+    }
+  },
+  "n17": {
+    "id": "n17",
+    "name": "Apotheosis",
+    "camelizeName": "apotheosis",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "2",
+      "description": "Upgrade ALL of your cards for the rest of combat. Exhaust."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Upgrade ALL of your cards for the rest of combat. Exhaust."
+    }
+  },
+  "n18": {
+    "id": "n18",
+    "name": "Enlightenment",
+    "camelizeName": "enlightenment",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Reduce the cost of cards in your hand to 1 this turn(combat)."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Reduce the cost of cards in your hand to 1 this turn(combat)."
+    }
+  },
+  "n19": {
+    "id": "n19",
+    "name": "Master Of Strategy",
+    "camelizeName": "masterOfStrategy",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Draw 3 Cards. Exhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Draw 4 Cards. Exhaust."
+    }
+  },
+  "n20": {
+    "id": "n20",
+    "name": "Panache",
+    "camelizeName": "panache",
+    "rarity": "Rare",
+    "type": "Power",
+    "base": {
+      "energy": "0",
+      "description": "Every time you play 5 cards in a single turn, deal 10 damage to ALL enemies."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Every time you play 5 cards in a single turn, deal 14 damage to ALL enemies."
+    }
+  },
+  "n21": {
+    "id": "n21",
+    "name": "Sadistic Nature",
+    "camelizeName": "sadisticNature",
+    "rarity": "Rare",
+    "type": "Power",
+    "base": {
+      "energy": "0",
+      "description": "Whenever you apply a Debuff to an enemy, they take 3 damage."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Whenever you apply a Debuff to an enemy, they take 4 damage."
+    }
+  },
+  "n22": {
+    "id": "n22",
+    "name": "Secret Technique",
+    "camelizeName": "secretTechnique",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Choose a Skill from your draw pile and place it into your hand. Exhaust"
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Choose a Skill from your draw pile and place it into your hand. Don't Exhaust"
+    }
+  },
+  "n23": {
+    "id": "n23",
+    "name": "Secret Weapon",
+    "camelizeName": "secretWeapon",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Choose an Attack from your draw pile and place it into your hand. Exhaust"
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Choose an Attack from your draw pile and place it into your hand. Don't Exhaust"
+    }
+  },
+  "n24": {
+    "id": "n24",
+    "name": "Thinking Ahead",
+    "camelizeName": "thinkingAhead",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Draw 2 cards. Place a card from your hand on top of your draw pile. Exhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Draw 2 cards. Place a card from your hand on top of your draw pile. Exhaust."
+    }
+  },
+  "n25": {
+    "id": "n25",
+    "name": "Transmutation",
+    "camelizeName": "transmutation",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "X",
+      "description": "Add X random colorless cards into your hand. Exhaust."
+    },
+    "upgraded": {
+      "energy": "X",
+      "description": "Add X upgraded colorless cards into your hand. Exhaust."
+    }
+  },
+  "n26": {
+    "id": "n26",
+    "name": "Clumsy",
+    "camelizeName": "clumsy",
+    "rarity": "Curse",
+    "type": "Unplayable.Ethereal.",
+    "base": {},
+    "upgraded": {}
+  },
+  "n27": {
+    "id": "n27",
+    "name": "Decay",
+    "camelizeName": "decay",
+    "rarity": "Curse",
+    "type": "Unplayable.At the end of your turn, take 2 damage.",
+    "base": {},
+    "upgraded": {}
+  },
+  "n28": {
+    "id": "n28",
+    "name": "Doubt",
+    "camelizeName": "doubt",
+    "rarity": "Curse",
+    "type": "Unplayable.At the end of your turn, gain 1 weak.",
+    "base": {},
+    "upgraded": {}
+  },
+  "n29": {
+    "id": "n29",
+    "name": "Injury",
+    "camelizeName": "injury",
+    "rarity": "Curse",
+    "type": "Unplayable.",
+    "base": {},
+    "upgraded": {}
+  },
+  "n30": {
+    "id": "n30",
+    "name": "Necronomicurse",
+    "camelizeName": "necronomicurse",
+    "rarity": "Curse",
+    "type": "Unplayable.There is no escape from this Curse.",
+    "base": {},
+    "upgraded": {}
+  },
+  "n31": {
+    "id": "n31",
+    "name": "Normality",
+    "camelizeName": "normality",
+    "rarity": "Curse",
+    "type": "Unplayable.You cannot play more than 3 cards this turn.",
+    "base": {},
+    "upgraded": {}
+  },
+  "n32": {
+    "id": "n32",
+    "name": "Pain",
+    "camelizeName": "pain",
+    "rarity": "Curse",
+    "type": "Unplayable.While in hand, lose 1 HP when other cards are played.",
+    "base": {},
+    "upgraded": {}
+  },
+  "n33": {
+    "id": "n33",
+    "name": "Parasite",
+    "camelizeName": "parasite",
+    "rarity": "Curse",
+    "type": "Unplayable.If transformed or removed from your deck, lose 3 Max HP.",
+    "base": {},
+    "upgraded": {}
+  },
+  "n34": {
+    "id": "n34",
+    "name": "Regret",
+    "camelizeName": "regret",
+    "rarity": "Curse",
+    "type": "Unplayable.At the end of your turn, lose 1 HP for each card in your hand.",
+    "base": {},
+    "upgraded": {}
+  },
+  "n35": {
+    "id": "n35",
+    "name": "Writhe",
+    "camelizeName": "writhe",
+    "rarity": "Curse",
+    "type": "Unplayable.Innate.",
+    "base": {},
+    "upgraded": {}
+  },
+  "n36": {
+    "id": "n36",
+    "name": "Burn",
+    "camelizeName": "burn",
+    "rarity": "Status",
+    "type": "Unplayable.At the end of your turn, take 2 (4) damage.",
+    "base": {},
+    "upgraded": {}
+  },
+  "n37": {
+    "id": "n37",
+    "name": "Dazed",
+    "camelizeName": "dazed",
+    "rarity": "Status",
+    "type": "Unplayable.Ethereal.",
+    "base": {},
+    "upgraded": {}
+  },
+  "n38": {
+    "id": "n38",
+    "name": "Wound",
+    "camelizeName": "wound",
+    "rarity": "Status",
+    "type": "Unplayable.",
+    "base": {},
+    "upgraded": {}
+  }
+}

@@ -1,0 +1,1112 @@
+{
+  "s0": {
+    "id": "s0",
+    "name": "A Thousand Cuts",
+    "camelizeName": "aThousandCuts",
+    "rarity": "Rare",
+    "type": "Power",
+    "base": {
+      "energy": "2",
+      "description": "Whenever you play a card, deal 1 damage to ALL enemies."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Whenever you play a card, deal 2 damage to ALL enemies."
+    }
+  },
+  "s1": {
+    "id": "s1",
+    "name": "Accuracy",
+    "camelizeName": "accuracy",
+    "rarity": "Uncommon",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "Shivs deal 3 additional damage."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Shivs deal 5 additional damage."
+    }
+  },
+  "s2": {
+    "id": "s2",
+    "name": "Acrobatics",
+    "camelizeName": "acrobatics",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Draw 3 cards. Discard 1 card."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Draw 4 cards. Discard 1 card."
+    }
+  },
+  "s3": {
+    "id": "s3",
+    "name": "Adrenaline",
+    "camelizeName": "adrenaline",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Gain 1 Energy. Draw 2 cards. Exhaust."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 2 Energy. Draw 2 cards. Exhaust."
+    }
+  },
+  "s4": {
+    "id": "s4",
+    "name": "After Image",
+    "camelizeName": "afterImage",
+    "rarity": "Rare",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "(Innate).\nWhenever you play a card, gain 1 Block."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "(Innate).\nWhenever you play a card, gain 1 Block."
+    }
+  },
+  "s5": {
+    "id": "s5",
+    "name": "All Out Attack",
+    "camelizeName": "allOutAttack",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 10 damage to ALL enemies. Draw 1 less card next turn."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 14 damage to ALL enemies. Draw 1 less card next turn."
+    }
+  },
+  "s6": {
+    "id": "s6",
+    "name": "Backflip",
+    "camelizeName": "backflip",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Gain 5 block. Draw 2 cards."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 8 block. Draw 2 cards."
+    }
+  },
+  "s7": {
+    "id": "s7",
+    "name": "Backstab",
+    "camelizeName": "backstab",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 12 damage. Innate. Exhaust."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal  16 damage. Innate. Exhaust."
+    }
+  },
+  "s8": {
+    "id": "s8",
+    "name": "Bane",
+    "camelizeName": "bane",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 7 damage. If the enemy is Poisoned, deal 7 damage again."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 10 damage. If the enemy is Poisoned, deal 10 damage again."
+    }
+  },
+  "s9": {
+    "id": "s9",
+    "name": "Bite",
+    "camelizeName": "bite",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 7 damage. Heal 2 HP."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 8 damage. Heal 3 HP."
+    }
+  },
+  "s10": {
+    "id": "s10",
+    "name": "Blade Dance",
+    "camelizeName": "bladeDance",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Add 2 Shivs to your hand."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Add 3 Shivs to your hand."
+    }
+  },
+  "s11": {
+    "id": "s11",
+    "name": "Blur",
+    "camelizeName": "blur",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Gain 5 Block. Block is not removed at the start of your next turn."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 8 Block. Block is not removed at the start of your next turn."
+    }
+  },
+  "s12": {
+    "id": "s12",
+    "name": "Bouncing Flask",
+    "camelizeName": "bouncingFlask",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "2",
+      "description": "Apply 3 poison to a random enemy 3 times."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Apply 3 poison to a random enemy 4 times."
+    }
+  },
+  "s13": {
+    "id": "s13",
+    "name": "Bullet Time",
+    "camelizeName": "bulletTime",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "3",
+      "description": "You cannot draw any cads this turn. Reduce the cost of cards in your hand to 0 this turn."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "You cannot draw any cads this turn. Reduce the cost of cards in your hand to 0 this turn."
+    }
+  },
+  "s14": {
+    "id": "s14",
+    "name": "Burst",
+    "camelizeName": "burst",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "This turn your next 1 Skill is (2 Skills are) played twice."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "This turn your next 1 Skill is (2 Skills are) played twice."
+    }
+  },
+  "s15": {
+    "id": "s15",
+    "name": "Calculated Gamble",
+    "camelizeName": "calculatedGamble",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Discard your hand, then draw that many cards.\nExhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Discard your hand, then draw that many non-exhaust"
+    }
+  },
+  "s16": {
+    "id": "s16",
+    "name": "Caltrops",
+    "camelizeName": "caltrops",
+    "rarity": "Uncommon",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "Whenever you are attacked, deal 3 damage to the attacker."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Whenever you are attacked, deal 5 damage to the attacker."
+    }
+  },
+  "s17": {
+    "id": "s17",
+    "name": "Catalyst",
+    "camelizeName": "catalyst",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Double an enemy's Poison. Exhaust."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Triple an enemy's Poison. Exhaust."
+    }
+  },
+  "s18": {
+    "id": "s18",
+    "name": "Choke",
+    "camelizeName": "choke",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Deal 12 damage. Whenever you play a card this turn, targeted enemy loses 3 HP."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Deal 12 damage. Whenever you play a card this turn, targeted enemy loses 5 HP."
+    }
+  },
+  "s19": {
+    "id": "s19",
+    "name": "Cloak And Dagger",
+    "camelizeName": "cloakAndDagger",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Gain 6 Block. Add 1 Shiv to your hand."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 6 Block. Add 1 2 Shivs to your hand."
+    }
+  },
+  "s20": {
+    "id": "s20",
+    "name": "Concentrate",
+    "camelizeName": "concentrate",
+    "rarity": "Unommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Discard 3 cards. Gain 2 Energy."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Discard 2 cards. Gain 2 Energy."
+    }
+  },
+  "s21": {
+    "id": "s21",
+    "name": "Corpse Explosion",
+    "camelizeName": "corpseExplosion",
+    "rarity": "Rare",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Enemy loses all Poison. Deal damage equal to twice the amount lost to ALL enemies."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Enemy loses all Poison. Deal damage equal to 3 times the amount lost to ALL enemies."
+    }
+  },
+  "s22": {
+    "id": "s22",
+    "name": "Crippling Poison",
+    "camelizeName": "cripplingPoison",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "2",
+      "description": "Apply 3 Poison. Apply 3 Weak."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Apply 5 Poison. Apply 5 Weak."
+    }
+  },
+  "s23": {
+    "id": "s23",
+    "name": "Dagger Spray",
+    "camelizeName": "daggerSpray",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 4 damage to ALL enemies twice."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 6 damage to ALL enemies twice."
+    }
+  },
+  "s24": {
+    "id": "s24",
+    "name": "Dagger Throw",
+    "camelizeName": "daggerThrow",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 9 damage. Draw 1 card. Discard 1 card."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 12 damage. Draw 1 card. Discard 1 card."
+    }
+  },
+  "s25": {
+    "id": "s25",
+    "name": "Dash",
+    "camelizeName": "dash",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Gain 10 Block. Deal 10 damage."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Gain 13 Block. Deal 13 damage."
+    }
+  },
+  "s26": {
+    "id": "s26",
+    "name": "Deadly Poison",
+    "camelizeName": "deadlyPoison",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Apply 4 Poison."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Apply 6 Poison."
+    }
+  },
+  "s27": {
+    "id": "s27",
+    "name": "Defend",
+    "camelizeName": "defend",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Gain 5 (8) Block."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 5 (8) Block."
+    }
+  },
+  "s28": {
+    "id": "s28",
+    "name": "Deflect",
+    "camelizeName": "deflect",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Gain 4 Block."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Gain 6 Block."
+    }
+  },
+  "s29": {
+    "id": "s29",
+    "name": "Die Die Die",
+    "camelizeName": "dieDieDie",
+    "rarity": "Rare",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 13 damage to ALL enemies. \nExhaust."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 17 damage to ALL enemies. \nExhaust."
+    }
+  },
+  "s30": {
+    "id": "s30",
+    "name": "Distraction",
+    "camelizeName": "distraction",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Add a random Skill to your hand. It costs 0 this turn. Exhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Add a random Skill to your hand. It costs 0 this turn. Exhaust."
+    }
+  },
+  "s31": {
+    "id": "s31",
+    "name": "Dodge and Roll",
+    "camelizeName": "dodgeAndRoll",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Gain 4 Block. Next turn gain 4 Block."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 6 Block. Next turn gain 6 Block."
+    }
+  },
+  "s32": {
+    "id": "s32",
+    "name": "Doppelganger",
+    "camelizeName": "doppelganger",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "X",
+      "description": "Next turn, draw X cards and gain X Energy."
+    },
+    "upgraded": {
+      "energy": "X",
+      "description": "Next turn, draw +1 cards and gain +1 Energy."
+    }
+  },
+  "s33": {
+    "id": "s33",
+    "name": "Endless Agony",
+    "camelizeName": "endlessAgony",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "0",
+      "description": "Whenever you draw this card, add a copy of it to your hand. Deal 4 damage. Exhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Whenever you draw this card, add a copy of it to your hand. Deal 6 damage. Exhaust."
+    }
+  },
+  "s34": {
+    "id": "s34",
+    "name": "Envenom",
+    "camelizeName": "envenom",
+    "rarity": "Rare",
+    "type": "Power",
+    "base": {
+      "energy": "2",
+      "description": "Whenever an attack deals unblocked damage, apply 1 Poison."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Whenever an attack deals unblocked damage, apply 1 Poison."
+    }
+  },
+  "s35": {
+    "id": "s35",
+    "name": "Escape Plan",
+    "camelizeName": "escapePlan",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Draw 1 card. If the card is a Skill, gain 3 Block."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Draw 1 card. If the card is a Skill, gain 5 Block."
+    }
+  },
+  "s36": {
+    "id": "s36",
+    "name": "Eviscerate",
+    "camelizeName": "eviscerate",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "4",
+      "description": "Costs 1 less Energy for each card discarded this turn. Deal 6 damage three times."
+    },
+    "upgraded": {
+      "energy": "4",
+      "description": "Costs 1 less Energy for each card discarded this turn. Deal 8 damage three times."
+    }
+  },
+  "s37": {
+    "id": "s37",
+    "name": "Finisher",
+    "camelizeName": "finisher",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 6 damage for each Attack played this turn."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 8 damage for each Attack played this turn."
+    }
+  },
+  "s38": {
+    "id": "s38",
+    "name": "Flechettes",
+    "camelizeName": "flechettes",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 4 damage for each Skill in your hand."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 6 damage for each Skill in your hand."
+    }
+  },
+  "s39": {
+    "id": "s39",
+    "name": "Flying Knee",
+    "camelizeName": "flyingKnee",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 8 damage. Next turn gain 1 Energy."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 11 damage. Next turn gain 1 Energy."
+    }
+  },
+  "s40": {
+    "id": "s40",
+    "name": "Footwork",
+    "camelizeName": "footwork",
+    "rarity": "Uncommon",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "Gain 2 Dexterity."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 3 Dexterity."
+    }
+  },
+  "s41": {
+    "id": "s41",
+    "name": "Glass Knife",
+    "camelizeName": "glassKnife",
+    "rarity": "Rare",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 8 damage twice. Glass Knife's damage is lowered by 2 this combat."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 12 damage twice. Glass Knife's damage is lowered by 2 this combat."
+    }
+  },
+  "s42": {
+    "id": "s42",
+    "name": "Grand Finale",
+    "camelizeName": "grandFinale",
+    "rarity": "Rare",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Can only be played if there are no cards in your draw pile. Deal 40 damage to ALL enemies."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Can only be played if there are no cards in your draw pile. Deal 50 damage to ALL enemies."
+    }
+  },
+  "s43": {
+    "id": "s43",
+    "name": "Heel Hook",
+    "camelizeName": "heelHook",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 5 damage. If the enemy is Weak, Gain 1 Energy and draw 1 card."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 7 damage. If the enemy is Weak, Gain 1 Energy and draw 1 card."
+    }
+  },
+  "s44": {
+    "id": "s44",
+    "name": "Infinite Blades",
+    "camelizeName": "infiniteBlades",
+    "rarity": "Uncommon",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "(Innate).\nAt the start of your turn, add a Shiv to your hand."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "(Innate).\nAt the start of your turn, add a Shiv to your hand."
+    }
+  },
+  "s45": {
+    "id": "s45",
+    "name": "Leg Sweep",
+    "camelizeName": "legSweep",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "2",
+      "description": "Apply 2 Weak. Gain 12 Block."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Apply 3 Weak. Gain 15 Block."
+    }
+  },
+  "s46": {
+    "id": "s46",
+    "name": "Malaise",
+    "camelizeName": "malaise",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "X",
+      "description": "Spend all Energy. Enemy loses X Strength. Apply X Weak. Exhaust."
+    },
+    "upgraded": {
+      "energy": "X",
+      "description": "Spend all Energy. Enemy loses +1 Strength. Apply +1 Weak. Exhaust."
+    }
+  },
+  "s47": {
+    "id": "s47",
+    "name": "Masterful Stab",
+    "camelizeName": "masterfulStab",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "0",
+      "description": "Can only be played if there are no other cards in your hand. Deal 15 damage."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Can only be played if there are no other cards in your hand. Deal 20 damage."
+    }
+  },
+  "s48": {
+    "id": "s48",
+    "name": "Neutralize",
+    "camelizeName": "neutralize",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "0",
+      "description": "Deal 3 damage. Apply 1 Weak."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Deal 4 damage. Apply 2 Weak."
+    }
+  },
+  "s49": {
+    "id": "s49",
+    "name": "Nightmare",
+    "camelizeName": "nightmare",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "3",
+      "description": "Choose a card.\nNext turn, add 3 copies of that card into your hand.\nExhaust."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Choose a card.\nNext turn, add 3 copies of that card into your hand.\nExhaust."
+    }
+  },
+  "s50": {
+    "id": "s50",
+    "name": "Noxious Fumes",
+    "camelizeName": "noxiousFumes",
+    "rarity": "Uncommon",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "At the start of your turn, apply 2 Poison to ALL enemies."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "At the start of your turn, apply 3 Poison to ALL enemies."
+    }
+  },
+  "s51": {
+    "id": "s51",
+    "name": "Outmaneuver",
+    "camelizeName": "outmaneuver",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Next turn gain 2 Energy."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Next turn gain 3 Energy."
+    }
+  },
+  "s52": {
+    "id": "s52",
+    "name": "Phantasmal Killer",
+    "camelizeName": "phantasmalKiller",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "2",
+      "description": "On your next turn, your Attack damage is doubled."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "On your next turn, your Attack damage is doubled."
+    }
+  },
+  "s53": {
+    "id": "s53",
+    "name": "Piercing Wail",
+    "camelizeName": "piercingWail",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "ALL enemies lose 6 Strength for 1 turn. Exhaust."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "ALL enemies lose 8 Strength for 1 turn. Exhaust."
+    }
+  },
+  "s54": {
+    "id": "s54",
+    "name": "Poisoned Stab",
+    "camelizeName": "poisonedStab",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 5 damage. Apply 3 Poison."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 6 damage. Apply 4 Poison."
+    }
+  },
+  "s55": {
+    "id": "s55",
+    "name": "Predator",
+    "camelizeName": "predator",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Deal 15 damage. Draw 2 more cards next turn."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Deal 20 damage. Draw 2 more cards next turn."
+    }
+  },
+  "s56": {
+    "id": "s56",
+    "name": "Prepared",
+    "camelizeName": "prepared",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Draw 1 card(s). Discard 1 card(s)."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Draw 2 card(s). Discard 2 card(s)."
+    }
+  },
+  "s57": {
+    "id": "s57",
+    "name": "Quick Slash",
+    "camelizeName": "quickSlash",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 8 damage. Draw 1 card."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 12 damage. Draw 1 card."
+    }
+  },
+  "s58": {
+    "id": "s58",
+    "name": "Reflex",
+    "camelizeName": "reflex",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "",
+      "description": "Unplayable. If this card is discarded from your hand, draw 1 card."
+    },
+    "upgraded": {
+      "energy": "",
+      "description": "Unplayable. If this card is discarded from your hand, draw 1 card."
+    }
+  },
+  "s59": {
+    "id": "s59",
+    "name": "Riddle With Holes",
+    "camelizeName": "riddleWithHoles",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Deal 3 damage 5 times."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Deal 4 damage 5 times."
+    }
+  },
+  "s60": {
+    "id": "s60",
+    "name": "Setup",
+    "camelizeName": "setup",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Place a card in your hand on top of your draw pile. It cost 0 until it is played."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Place a card in your hand on top of your draw pile. It cost 0 until it is played."
+    }
+  },
+  "s61": {
+    "id": "s61",
+    "name": "Skewer",
+    "camelizeName": "skewer",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "X",
+      "description": "Spend all Energy. Deal 7 damage X times."
+    },
+    "upgraded": {
+      "energy": "X",
+      "description": "Spend all Energy. Deal 10 damage X times."
+    }
+  },
+  "s62": {
+    "id": "s62",
+    "name": "Slice",
+    "camelizeName": "slice",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "0",
+      "description": "Deal 5 damage."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Deal 8 damage."
+    }
+  },
+  "s63": {
+    "id": "s63",
+    "name": "Storm of Steel",
+    "camelizeName": "stormOfSteel",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "2",
+      "description": "Discard your hand. Add 1 Shiv to your hand for each card discarded."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Discard your hand. Add Upgraded Shiv to your hand for each card discarded."
+    }
+  },
+  "s64": {
+    "id": "s64",
+    "name": "Strike",
+    "camelizeName": "strike",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 6 damage."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 9 damage."
+    }
+  },
+  "s65": {
+    "id": "s65",
+    "name": "Sucker Punch",
+    "camelizeName": "suckerPunch",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 7 damage. Apply 1 Weak."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 9 damage. Apply 2 Weak."
+    }
+  },
+  "s66": {
+    "id": "s66",
+    "name": "Survivor",
+    "camelizeName": "survivor",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Gain 8 Block. Discard a card."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 11 Block. Discard a card."
+    }
+  },
+  "s67": {
+    "id": "s67",
+    "name": "Tactician",
+    "camelizeName": "tactician",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "",
+      "description": "Unplayable. If this card is discarded from your hand, gain 1 Energy."
+    },
+    "upgraded": {
+      "energy": "",
+      "description": "Unplayable. If this card is discarded from your hand, gain 1 Energy."
+    }
+  },
+  "s68": {
+    "id": "s68",
+    "name": "Terror",
+    "camelizeName": "terror",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Apply 99 Vulnerable. Exhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Apply 99 Vulnerable. Exhaust."
+    }
+  },
+  "s69": {
+    "id": "s69",
+    "name": "Tools of the Trade",
+    "camelizeName": "toolsOfTheTrade",
+    "rarity": "Rare",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "At the start of your turn, draw 1 card and discard 1 card."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "At the start of your turn, draw 1 card and discard 1 card."
+    }
+  },
+  "s70": {
+    "id": "s70",
+    "name": "Underhanded Strike",
+    "camelizeName": "underhandedStrike",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "",
+      "description": "Unplayable. If this card is discarded from your hand, deal 7 damage to a random enemy."
+    },
+    "upgraded": {
+      "energy": "",
+      "description": "Unplayable. If this card is discarded from your hand, deal 10 damage to a random enemy."
+    }
+  },
+  "s71": {
+    "id": "s71",
+    "name": "Unload",
+    "camelizeName": "unload",
+    "rarity": "Rare",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 12 damage. Discard ALL non-Attack cards."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 16 damage. Discard ALL non-Attack cards."
+    }
+  },
+  "s72": {
+    "id": "s72",
+    "name": "Well-Laid Plans",
+    "camelizeName": "well-LaidPlans",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "At the end of your turn, Retain up to 1 card."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "At the end of your turn, Retain up to 1 card."
+    }
+  },
+  "s73": {
+    "id": "s73",
+    "name": "Wraith Form",
+    "camelizeName": "wraithForm",
+    "rarity": "Rare",
+    "type": "Power",
+    "base": {
+      "energy": "3",
+      "description": "Whenever you play a Skill, deal 3 damage to a random enemy."
+    },
+    "upgraded": {
+      "energy": "3",
+      "description": "Whenever you play a Skill, deal 5 damage to a random enemy."
+    }
+  }
+}

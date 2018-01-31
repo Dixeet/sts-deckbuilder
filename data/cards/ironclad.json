@@ -1,0 +1,1127 @@
+{
+  "i0": {
+    "id": "i0",
+    "name": "Bash",
+    "camelizeName": "bash",
+    "rarity": "Basic",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Deal 8 damage. Apply Vulnerable for 2 turns."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Deal 10 damage. Apply Vulnerable for 3 turns."
+    }
+  },
+  "i1": {
+    "id": "i1",
+    "name": "Defend",
+    "camelizeName": "defend",
+    "rarity": "Basic",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Gain 5 Block."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 8 Block."
+    }
+  },
+  "i2": {
+    "id": "i2",
+    "name": "Strike",
+    "camelizeName": "strike",
+    "rarity": "Basic",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 6 damage."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 9 damage."
+    }
+  },
+  "i3": {
+    "id": "i3",
+    "name": "Anger",
+    "camelizeName": "anger",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "0",
+      "description": "Deal 4 damage. Place a copy of this card in your discard pile."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Deal 6 damage. Place a copy of this card in your discard pile."
+    }
+  },
+  "i4": {
+    "id": "i4",
+    "name": "Armaments",
+    "camelizeName": "armaments",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Gain 5 Block. Upgrade a card in your hand for the rest of combat."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 5 Block. Upgrade ALL cards in your hand for the rest of combat."
+    }
+  },
+  "i5": {
+    "id": "i5",
+    "name": "Body Slam",
+    "camelizeName": "bodySlam",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal damage equal to your current Block."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Deal damage equal to your current Block."
+    }
+  },
+  "i6": {
+    "id": "i6",
+    "name": "Clash",
+    "camelizeName": "clash",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "0",
+      "description": "Can only be played if every card in your hand is an Attack. Deal 14 damage."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Can only be played if every card in your hand is an Attack. Deal 18 damage."
+    }
+  },
+  "i7": {
+    "id": "i7",
+    "name": "Cleave",
+    "camelizeName": "cleave",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 7 damage to ALL enemies."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 10 damage to ALL enemies."
+    }
+  },
+  "i8": {
+    "id": "i8",
+    "name": "Clothesline",
+    "camelizeName": "clothesline",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Deal 12 damage. Apply 2 Weak."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Deal 14 damage. Apply 3 Weak."
+    }
+  },
+  "i9": {
+    "id": "i9",
+    "name": "Dual Wield",
+    "camelizeName": "dualWield",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Create a copy of a card in your hand."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Create 2 copys of a card in your hand."
+    }
+  },
+  "i10": {
+    "id": "i10",
+    "name": "Flex",
+    "camelizeName": "flex",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Gain 2 Strength. At the end of your turn, lose 2 Strength."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Gain 4 Strength. At the end of your turn, lose 4 Strength."
+    }
+  },
+  "i11": {
+    "id": "i11",
+    "name": "Ghostly Armor",
+    "camelizeName": "ghostlyArmor",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Ethereal.\nGain 10 Block."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Ethereal.\nGain 10 Block."
+    }
+  },
+  "i12": {
+    "id": "i12",
+    "name": "Havoc",
+    "camelizeName": "havoc",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Play the top card of your draw pile and Exhaust it."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Play the top card of your draw pile and Exhaust it."
+    }
+  },
+  "i13": {
+    "id": "i13",
+    "name": "Headbutt",
+    "camelizeName": "headbutt",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 9 damage. Place a card from your discard pile on top of your draw pile."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 12 damage. Place a card from your discard pile on top of your draw pile."
+    }
+  },
+  "i14": {
+    "id": "i14",
+    "name": "Heavy Blade",
+    "camelizeName": "heavyBlade",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Deal 14 damage. Strength affects Heavy Blade 3 times."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Deal 14 damage. Strength affects Heavy Blade 5 times."
+    }
+  },
+  "i15": {
+    "id": "i15",
+    "name": "Iron Wave",
+    "camelizeName": "ironWave",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Gain 5 Block. Deal 5 damage."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 7 Block. Deal 7 damage."
+    }
+  },
+  "i16": {
+    "id": "i16",
+    "name": "Perfected Strike",
+    "camelizeName": "perfectedStrike",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Deal 6 damage. Deals an additional +2 damage for ALL of your cards containing \"Strike\"."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Deal 6 damage. Deals an additional 3 damage for ALL of your cards containing \"Strike\"."
+    }
+  },
+  "i17": {
+    "id": "i17",
+    "name": "Pommel Strike",
+    "camelizeName": "pommelStrike",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 9 damage. Draw 1 card(s)."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 10 damage. Draw 2 card(s)."
+    }
+  },
+  "i18": {
+    "id": "i18",
+    "name": "Shrug it Off",
+    "camelizeName": "shrugItOff",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Gain 8 Block. Draw 1 card."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 11 Block. Draw 1 card."
+    }
+  },
+  "i19": {
+    "id": "i19",
+    "name": "Sword Boomerang",
+    "camelizeName": "swordBoomerang",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 3 damage to a random enemy 3 times."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 3 damage to a random enemy 4 times."
+    }
+  },
+  "i20": {
+    "id": "i20",
+    "name": "Thunderclap",
+    "camelizeName": "thunderclap",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 4 damage and apply 1 Vulnerable to ALL enemies."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 7 damage and apply 1 Vulnerable to ALL enemies."
+    }
+  },
+  "i21": {
+    "id": "i21",
+    "name": "True Grit",
+    "camelizeName": "trueGrit",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Gain 7 Block. Exhaust a random card from your hand."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 9 Block. Exhaust a not random card from your hand."
+    }
+  },
+  "i22": {
+    "id": "i22",
+    "name": "Twin Strike",
+    "camelizeName": "twinStrike",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 5 damage twice."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 7 damage twice."
+    }
+  },
+  "i23": {
+    "id": "i23",
+    "name": "Warcry",
+    "camelizeName": "warcry",
+    "rarity": "Common",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Draw 2 cards. Place a card from your hand on top of your draw pile. Exhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Draw 2 cards. Place a card from your hand on top of your draw pile. Exhaust."
+    }
+  },
+  "i24": {
+    "id": "i24",
+    "name": "Wild Strike",
+    "camelizeName": "wildStrike",
+    "rarity": "Common",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 12 damage. Shuffle a Wound into your draw pile."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 17 damage. Shuffle a Wound into your draw pile."
+    }
+  },
+  "i25": {
+    "id": "i25",
+    "name": "Battle Trance",
+    "camelizeName": "battleTrance",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Draw 3 cards. You cannot draw additional cards this turn."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Draw 4 cards. You cannot draw additional cards this turn."
+    }
+  },
+  "i26": {
+    "id": "i26",
+    "name": "Blood for Blood",
+    "camelizeName": "bloodForBlood",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "4",
+      "description": "Cost 1 less energy for each time you lose HP in combat. Deal 16 damage."
+    },
+    "upgraded": {
+      "energy": "4",
+      "description": "Cost 1 less energy for each time you lose HP in combat. Deal 18 damage."
+    }
+  },
+  "i27": {
+    "id": "i27",
+    "name": "Bloodletting",
+    "camelizeName": "bloodletting",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Gain 1 energy. Lose 3 HP."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Gain 2 energy. Lose 3 HP."
+    }
+  },
+  "i28": {
+    "id": "i28",
+    "name": "Burning Pact",
+    "camelizeName": "burningPact",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Exhaust 1 card. Draw 2 cards."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Exhaust 1 card. Draw 3 cards."
+    }
+  },
+  "i29": {
+    "id": "i29",
+    "name": "Carnage",
+    "camelizeName": "carnage",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Ethereal. Deal 18 damage."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Ethereal. Deal 26 damage."
+    }
+  },
+  "i30": {
+    "id": "i30",
+    "name": "Combust",
+    "camelizeName": "combust",
+    "rarity": "Uncommon",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "At the end of your turn, lose 1 HP and deal 4 damage to ALL enemies."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "At the end of your turn, lose 1 HP and deal 5 damage to ALL enemies."
+    }
+  },
+  "i31": {
+    "id": "i31",
+    "name": "Corruption",
+    "camelizeName": "corruption",
+    "rarity": "Uncommon",
+    "type": "Power",
+    "base": {
+      "energy": "3",
+      "description": "Skills cost 0. Whenever you play a Skill, Exhaust it."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Skills cost 0. Whenever you play a Skill, Exhaust it."
+    }
+  },
+  "i32": {
+    "id": "i32",
+    "name": "Disarm",
+    "camelizeName": "disarm",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Enemy loses 2 Strength. Exhaust."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Enemy loses 3 Strength. Exhaust."
+    }
+  },
+  "i33": {
+    "id": "i33",
+    "name": "Dropkick",
+    "camelizeName": "dropkick",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 5 damage. If the target is Vulnerable, gain 1 energy and draw 1 card."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 8 damage. If the target is Vulnerable, gain 1 energy and draw 1 card."
+    }
+  },
+  "i34": {
+    "id": "i34",
+    "name": "Entrench",
+    "camelizeName": "entrench",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "2",
+      "description": "Double your current Block."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Double your current Block."
+    }
+  },
+  "i35": {
+    "id": "i35",
+    "name": "Evolve",
+    "camelizeName": "evolve",
+    "rarity": "Uncommon",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "Shuffle 2 Wounds into your draw pile. Whenever you draw a Wound, draw 1 card(s)."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Shuffle 2 Wounds into your draw pile. Whenever you draw a Wound, draw 2 card(s)."
+    }
+  },
+  "i36": {
+    "id": "i36",
+    "name": "Feel No Pain",
+    "camelizeName": "feelNoPain",
+    "rarity": "Uncommon",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "Whenever a card is Exhausted, gain 4 Block."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Whenever a card is Exhausted, gain 6 Block."
+    }
+  },
+  "i37": {
+    "id": "i37",
+    "name": "Fire Breathing",
+    "camelizeName": "fireBreathing",
+    "rarity": "Uncommon",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "At the end of your turn, for each Attack played this turn deal 1 damage to ALL enemies."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "At the end of your turn, for each Attack played this turn deal 1 damage to ALL enemies."
+    }
+  },
+  "i38": {
+    "id": "i38",
+    "name": "Flame Barrier",
+    "camelizeName": "flameBarrier",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "2",
+      "description": "Gain 12 Block. Whenever you are attacked this turn, deal 4 damage to the attacker."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Gain 16 Block. Whenever you are attacked this turn, deal 4 damage to the attacker."
+    }
+  },
+  "i39": {
+    "id": "i39",
+    "name": "Hemokinesis",
+    "camelizeName": "hemokinesis",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Lose 3 HP. Deal 14 damage."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Lose 2 HP. Deal 18 damage."
+    }
+  },
+  "i40": {
+    "id": "i40",
+    "name": "Infernal Blade",
+    "camelizeName": "infernalBlade",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Add a random Attack to your hand. It costs 0 this turn. Exhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Add a random Attack to your hand. It costs 0 this turn. Exhaust."
+    }
+  },
+  "i41": {
+    "id": "i41",
+    "name": "Inflame",
+    "camelizeName": "inflame",
+    "rarity": "Uncommon",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "Gain 2 Strength."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 3 Strength."
+    }
+  },
+  "i42": {
+    "id": "i42",
+    "name": "Intimidate",
+    "camelizeName": "intimidate",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Apply 1 Weak to ALL enemies. Exhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Apply 2 Weak to ALL enemies. Exhaust."
+    }
+  },
+  "i43": {
+    "id": "i43",
+    "name": "Metallicize",
+    "camelizeName": "metallicize",
+    "rarity": "Uncommon",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "At the end of your turn, gain 3 Block."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "At the end of your turn, gain 4 Block."
+    }
+  },
+  "i44": {
+    "id": "i44",
+    "name": "Power Through",
+    "camelizeName": "powerThrough",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Add 2 Wounds to your hand. Gain 15 Block."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Add 2 Wounds to your hand. Gain 20 Block."
+    }
+  },
+  "i45": {
+    "id": "i45",
+    "name": "Pummel",
+    "camelizeName": "pummel",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 2 damage 4 times. Exhaust."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 2 damage 5 times. Exhaust."
+    }
+  },
+  "i46": {
+    "id": "i46",
+    "name": "Rage",
+    "camelizeName": "rage",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Whenever you play an Attack this turn, gain 4 Block"
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Whenever you play an Attack this turn, gain 6 Block"
+    }
+  },
+  "i47": {
+    "id": "i47",
+    "name": "Rampage",
+    "camelizeName": "rampage",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 8 damage. Every time this card is played, increase its damage by 4 for this combat."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 8 damage. Every time this card is played, increase its damage by 8 for this combat."
+    }
+  },
+  "i48": {
+    "id": "i48",
+    "name": "Reckless Charge",
+    "camelizeName": "recklessCharge",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "0",
+      "description": "Gain 1 Vulnerable. Deal 9 damage."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Gain 1 Vulnerable. Deal 12 damage."
+    }
+  },
+  "i49": {
+    "id": "i49",
+    "name": "Rupture",
+    "camelizeName": "rupture",
+    "rarity": "Uncommon",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "Whenever you lose HP from a card, gain 1 Strength."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Whenever you lose HP from a card, gain 1 Strength."
+    }
+  },
+  "i50": {
+    "id": "i50",
+    "name": "Searing Blow",
+    "camelizeName": "searingBlow",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Deal 12 damage. Can be upgraded any number of times."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Deal 16+ damage. Can be upgraded any number of times."
+    }
+  },
+  "i51": {
+    "id": "i51",
+    "name": "Second Wind",
+    "camelizeName": "secondWind",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Exhaust all non-Attack cards in your hand and gain 5 Block for each."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Exhaust all non-Attack cards in your hand and gain 7 Block for each."
+    }
+  },
+  "i52": {
+    "id": "i52",
+    "name": "Seeing Red",
+    "camelizeName": "seeingRed",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Gain 2 energy. Exhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Gain 2 energy. Exhaust."
+    }
+  },
+  "i53": {
+    "id": "i53",
+    "name": "Sentinel",
+    "camelizeName": "sentinel",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Gain 5 Block. If this card is Exhausted, gain 2 energy."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Gain 8 Block. If this card is Exhausted, gain 3 energy."
+    }
+  },
+  "i54": {
+    "id": "i54",
+    "name": "Sever Soul",
+    "camelizeName": "severSoul",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Exhaust all non-Attack cards in your hand. Deal 16 damage."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Exhaust all non-Attack cards in your hand. Deal 20 damage."
+    }
+  },
+  "i55": {
+    "id": "i55",
+    "name": "Shockwave",
+    "camelizeName": "shockwave",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "2",
+      "description": "Apply 3 Weak and Vulnerable to ALL enemies."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Apply 5 Weak and Vulnerable to ALL enemies."
+    }
+  },
+  "i56": {
+    "id": "i56",
+    "name": "Spot Weakness",
+    "camelizeName": "spotWeakness",
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "If an enemy intends to attack, gain 3 Strength."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "If an enemy intends to attack, gain 4 Strength."
+    }
+  },
+  "i57": {
+    "id": "i57",
+    "name": "Uppercut",
+    "camelizeName": "uppercut",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Deal 13 damage. Apply 1 Weak. Apply 1 Vulnerable."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Deal 13 damage. Apply 2 Weak. Apply 2 Vulnerable."
+    }
+  },
+  "i58": {
+    "id": "i58",
+    "name": "Whirlwind",
+    "camelizeName": "whirlwind",
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "base": {
+      "energy": "X",
+      "description": "Spend all energy. Deal 5 damage to ALL enemies X times."
+    },
+    "upgraded": {
+      "energy": "X",
+      "description": "Spend all energy. Deal 8 damage to ALL enemies X times."
+    }
+  },
+  "i59": {
+    "id": "i59",
+    "name": "Barricade",
+    "camelizeName": "barricade",
+    "rarity": "Rare",
+    "type": "Power",
+    "base": {
+      "energy": "3",
+      "description": "Block no longer expires at the start of your turn."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Block no longer expires at the start of your turn."
+    }
+  },
+  "i60": {
+    "id": "i60",
+    "name": "Bludgeon",
+    "camelizeName": "bludgeon",
+    "rarity": "Rare",
+    "type": "Attack",
+    "base": {
+      "energy": "3",
+      "description": "Deal 32 damage."
+    },
+    "upgraded": {
+      "energy": "3",
+      "description": "Deal 42 damage."
+    }
+  },
+  "i61": {
+    "id": "i61",
+    "name": "Berserk",
+    "camelizeName": "berserk",
+    "rarity": "Rare",
+    "type": "Power",
+    "base": {
+      "energy": "1",
+      "description": "If your HP is below 50%, gain 1 energy at the start of each turn."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "If your HP is below 50%, gain 1 energy at the start of each turn."
+    }
+  },
+  "i62": {
+    "id": "i62",
+    "name": "Brutality",
+    "camelizeName": "brutality",
+    "rarity": "Rare",
+    "type": "Power",
+    "base": {
+      "energy": "0",
+      "description": "(Innate) At the start of your turn, lose 1 HP and draw 1 card."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "(Innate) At the start of your turn, lose 1 HP and draw 1 card."
+    }
+  },
+  "i63": {
+    "id": "i63",
+    "name": "Dark Embrace",
+    "camelizeName": "darkEmbrace",
+    "rarity": "Rare",
+    "type": "Power",
+    "base": {
+      "energy": "2",
+      "description": "Whenever a card is Exhausted, draw 1 card."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Whenever a card is Exhausted, draw 1 card."
+    }
+  },
+  "i64": {
+    "id": "i64",
+    "name": "Demon Form",
+    "camelizeName": "demonForm",
+    "rarity": "Rare",
+    "type": "Power",
+    "base": {
+      "energy": "3",
+      "description": "At the start of each turn, gain 2 Strength."
+    },
+    "upgraded": {
+      "energy": "3",
+      "description": "At the start of each turn, gain 3 Strength."
+    }
+  },
+  "i65": {
+    "id": "i65",
+    "name": "Double Tap",
+    "camelizeName": "doubleTap",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "This turn, your next Attack is played twice."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "This turn, your 2 Attacks is played twice."
+    }
+  },
+  "i66": {
+    "id": "i66",
+    "name": "Exhume",
+    "camelizeName": "exhume",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Choose an Exhausted card and put it in your hand. Exhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Choose an Exhausted card and put it in your hand. Exhaust."
+    }
+  },
+  "i67": {
+    "id": "i67",
+    "name": "Feed",
+    "camelizeName": "feed",
+    "rarity": "Rare",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Deal 10 damage. If this kills the enemy, gain 3 permanent Max HP."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Deal 12 damage. If this kills the enemy, gain 4 permanent Max HP."
+    }
+  },
+  "i68": {
+    "id": "i68",
+    "name": "Fiend Fire",
+    "camelizeName": "fiendFire",
+    "rarity": "Rare",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Exhaust your hand. Deal 7 damage for each Exhausted card. Exhaust."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Exhaust your hand. Deal 10 damage for each Exhausted card. Exhaust."
+    }
+  },
+  "i69": {
+    "id": "i69",
+    "name": "Immolate",
+    "camelizeName": "immolate",
+    "rarity": "Rare",
+    "type": "Attack",
+    "base": {
+      "energy": "1",
+      "description": "Exhaust 1 card. If the chosen card was a Status or Curse, deal 10 damage to ALL enemies."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Exhaust 1 card. If the chosen card was a Status or Curse, deal 15 damage to ALL enemies."
+    }
+  },
+  "i70": {
+    "id": "i70",
+    "name": "Impervious",
+    "camelizeName": "impervious",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "2",
+      "description": "Gain 30 Block. Exhaust."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Gain 40 Block. Exhaust."
+    }
+  },
+  "i71": {
+    "id": "i71",
+    "name": "Juggernaut",
+    "camelizeName": "juggernaut",
+    "rarity": "Rare",
+    "type": "Power",
+    "base": {
+      "energy": "2",
+      "description": "Whenever you gain Block, deal 3 damage to ALL enemies."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Whenever you gain Block, deal 5 damage to ALL enemies."
+    }
+  },
+  "i72": {
+    "id": "i72",
+    "name": "Limit Break",
+    "camelizeName": "limitBreak",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "1",
+      "description": "Double your Strength. Exhaust(Don't Exhaust)."
+    },
+    "upgraded": {
+      "energy": "1",
+      "description": "Double your Strength. Exhaust(Don't Exhaust)."
+    }
+  },
+  "i73": {
+    "id": "i73",
+    "name": "Offering",
+    "camelizeName": "offering",
+    "rarity": "Rare",
+    "type": "Skill",
+    "base": {
+      "energy": "0",
+      "description": "Lose 4 HP. Gain 2 energy. Draw 3 cards. Exhaust."
+    },
+    "upgraded": {
+      "energy": "0",
+      "description": "Lose 4 HP. Gain 2 energy. Draw 5 cards. Exhaust."
+    }
+  },
+  "i74": {
+    "id": "i74",
+    "name": "Reaper",
+    "camelizeName": "reaper",
+    "rarity": "Rare",
+    "type": "Attack",
+    "base": {
+      "energy": "2",
+      "description": "Deal 4 damage to ALL enemies. Heal for unBlocked damage. Exhaust."
+    },
+    "upgraded": {
+      "energy": "2",
+      "description": "Deal 5 damage to ALL enemies. Heal for unBlocked damage. Exhaust."
+    }
+  }
+}
