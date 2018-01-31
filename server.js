@@ -5,7 +5,8 @@ const http = require('http');
 const app = express();
 
 // API file for interacting with MongoDB
-// const api = require('./server/routes/api');
+const api = require('./server/routes');
+
 
 console.log(process.env.NODE_ENV);
 
@@ -17,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false}));
 app.use(express.static(path.join(__dirname, 'dist')));
 
 // API location
-// app.use('/api', api);
+app.use('/api', api);
 
 app.get('/assets', express.static(path.join(__dirname, process.env.NODE_ENV == 'production' ? 'dist/assets' : 'src/assets')));
 
