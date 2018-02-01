@@ -13,3 +13,15 @@ exports.findById = (req, res) => {
     }
     res.json(result);
 };
+
+exports.getAllIronclad = (req, res) => {
+    res.json(dataService.cards.ironclad);
+};
+
+exports.getAllSilent = (req, res) => {
+    res.json(dataService.cards.silent);
+};
+
+exports.getAllNeutral = (req, res) => {
+    res.json(dataService.cards.neutral);
+};
