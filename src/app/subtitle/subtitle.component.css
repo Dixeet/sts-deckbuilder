@@ -1,0 +1,8 @@
+h2 {
+    background-color: #212121;
+    border-bottom: 2px solid #e91e63;
+    font-weight: 500;
+    font-size: 1.5rem;
+    min-width: 75px;
+    text-align: center;
+}

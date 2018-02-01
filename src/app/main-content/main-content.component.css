@@ -1,3 +1,7 @@
-.fullh {
-    height: 100%;
+mat-toolbar {
+    padding: 0 4rem;
+}
+
+mat-toolbar > h1 {
+    text-transform: uppercase;
 }

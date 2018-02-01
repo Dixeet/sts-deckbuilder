@@ -15,6 +15,8 @@ import { MainContentComponent } from './main-content/main-content.component';
 import { GenericCardPageComponent } from './generic-card-page/generic-card-page.component';
 import { AbstractDataService } from './abstract-data.service';
 import { CardsService } from './cards.service';
+import { TitleService} from './title.service';
+import { SubtitleComponent } from './subtitle/subtitle.component';
 
 
 @NgModule({
@@ -24,7 +26,8 @@ import { CardsService } from './cards.service';
     NavbarComponent,
     DeckComponent,
     MainContentComponent,
-    GenericCardPageComponent
+    GenericCardPageComponent,
+    SubtitleComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,7 @@ import { CardsService } from './cards.service';
     MatToolbarModule,
     MatButtonModule,
   ],
-  providers: [AbstractDataService, CardsService],
+  providers: [AbstractDataService, CardsService, TitleService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

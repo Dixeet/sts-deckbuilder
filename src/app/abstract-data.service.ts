@@ -23,6 +23,7 @@ export class AbstractDataService {
   }
 
   private transformToArray(object) {
+    // noinspection Annotator
     return Object.values(object);
   }
 
