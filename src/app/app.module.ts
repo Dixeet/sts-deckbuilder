@@ -22,6 +22,7 @@ import { RelicPageComponent } from './relic-page/relic-page.component';
 import { RelicComponent } from './relic/relic.component';
 import { RelicsService } from './relics.service';
 import { RelicsListComponent } from './relics-list/relics-list.component';
+import { CardsListComponent } from './cards-list/cards-list.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { RelicsListComponent } from './relics-list/relics-list.component';
     CardComponent,
     RelicPageComponent,
     RelicComponent,
-    RelicsListComponent
+    RelicsListComponent,
+    CardsListComponent,
   ],
   imports: [
     BrowserModule,
