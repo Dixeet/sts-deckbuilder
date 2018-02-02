@@ -1,0 +1,24 @@
+.relic {
+    position: relative;
+    width: 120px;
+    height: 95px;
+}
+
+.relic > img {
+    position: absolute;
+    top: -35px;
+}
+.relic .name {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    width: 100%;
+    padding: 5px 2px;
+    border: 1px solid dimgrey;
+    background-color: #212121;
+}
+
+.mat-tooltip {
+    font-size: 12px !important;
+}

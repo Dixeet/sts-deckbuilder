@@ -1,6 +1,13 @@
 mat-card {
     text-align: center;
     padding: 15px 24px 24px 24px !important;
+    border: 1px solid dimgrey;
+    border-radius: 5px !important;
+    cursor: grab;
+}
+
+mat-card:hover {
+    transform: scale(1.05);
 }
 
 mat-card-header > div.mat-card-header-text {
@@ -18,6 +25,11 @@ mat-card-content {
     align-content: center;
     flex-direction: column;
     margin: 0 -10px !important;
+    color: white;
+}
+
+.green, .energy.green > span {
+    color: lawngreen;
 }
 
 .energy {
@@ -34,16 +46,22 @@ mat-card-content {
 
 .energy > span {
     position: absolute;
-    top: 13px;
-    left: 14px;
-    color: #424242;
+    top: 10px;
+    left: 12px;
     font-weight: 500;
+    /*color: #424242;*/
+    /*text-shadow: -2px 0 #424242, 0 2px #424242, 2px 0 #424242, 0 -2px #424242;*/
+    text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+    color: white;
+    font-size: 20px;
 }
 
 .rare {
     color: gold;
+    border-color: gold;
 }
 
 .uncommon {
     color: rgb(132, 255, 248);
+    border-color: rgb(132, 255, 248);
 }

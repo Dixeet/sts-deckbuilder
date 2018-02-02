@@ -408,7 +408,7 @@
   "x58": {
     "id": "x58",
     "name": "Charon's Ashes",
-    "camelizeName": "charon'SAshes",
+    "camelizeName": "ashes",
     "rarity": "Rare",
     "description": "Whenever you Exhaust a card, deal 3 damage to ALL enemies."
   },
@@ -611,14 +611,14 @@
   "x87": {
     "id": "x87",
     "name": "Pandora's Box",
-    "camelizeName": "pandora'SBox",
+    "camelizeName": "pandoraBox",
     "rarity": "Boss",
     "description": "Transform all Strikes and Defends."
   },
   "x88": {
     "id": "x88",
     "name": "Philosopher's Stone",
-    "camelizeName": "philosopher'SStone",
+    "camelizeName": "philosopherStone",
     "rarity": "Boss",
     "description": "Gain 1 Energy at the start of each turn. ALL enemies start with 2 Strength."
   },
@@ -723,21 +723,21 @@
   "x103": {
     "id": "x103",
     "name": "Neow's Lament",
-    "camelizeName": "neow'SLament",
+    "camelizeName": "lament",
     "rarity": "Event",
     "description": "Enemies in your first 3 combats will have 1 HP."
   },
   "x104": {
     "id": "x104",
     "name": "Nilry's Codex",
-    "camelizeName": "nilry'SCodex",
+    "camelizeName": "codex",
     "rarity": "Event",
     "description": "At the end of each turn, you can choose 1 of 3 random cards to shuffle into your draw pile."
   },
   "x105": {
     "id": "x105",
     "name": "Nloth's Gift",
-    "camelizeName": "nloth'SGift",
+    "camelizeName": "nlothsGift",
     "rarity": "Event",
     "description": "Triples the chance of receiving rare cards as monster rewards."
   },
@@ -772,7 +772,7 @@
   "x110": {
     "id": "x110",
     "name": "Lee's Waffle",
-    "camelizeName": "lee'SWaffle",
+    "camelizeName": "waffle",
     "rarity": "Shop",
     "description": "Raise your Max HP by 7 and heal all of your HP."
   },

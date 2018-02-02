@@ -1,3 +1,9 @@
 a {
     font-weight: 500;
 }
+
+.border-right-white {
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin-right: 10px;
+}

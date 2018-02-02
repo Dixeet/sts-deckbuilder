@@ -1,3 +1,30 @@
-<p>
-  relic-page works!
-</p>
+<div class="container mx-auto">
+  <app-subtitle class="cursor-as-pointer mb2" (click)="toggleStatus('starter')" [title]="'Starter'"></app-subtitle>
+  <div *ngIf="status.starter">
+    <app-relics-list [relics]="starter"></app-relics-list>
+  </div>
+  <app-subtitle class="cursor-as-pointer mb2" (click)="toggleStatus('common')" [title]="'Common'"></app-subtitle>
+  <div *ngIf="status.common">
+    <app-relics-list [relics]="common"></app-relics-list>
+  </div>
+  <app-subtitle class="cursor-as-pointer mb2" (click)="toggleStatus('uncommon')" [title]="'Uncommon'"></app-subtitle>
+  <div *ngIf="status.uncommon">
+    <app-relics-list [relics]="uncommon"></app-relics-list>
+  </div>
+  <app-subtitle class="cursor-as-pointer mb2" (click)="toggleStatus('rare')" [title]="'Rare'"></app-subtitle>
+  <div *ngIf="status.rare">
+    <app-relics-list [relics]="rare"></app-relics-list>
+  </div>
+  <app-subtitle class="cursor-as-pointer mb2" (click)="toggleStatus('boss')" [title]="'Boss'"></app-subtitle>
+  <div *ngIf="status.boss">
+    <app-relics-list [relics]="boss"></app-relics-list>
+  </div>
+  <app-subtitle class="cursor-as-pointer mb2" (click)="toggleStatus('event')" [title]="'Event'"></app-subtitle>
+  <div *ngIf="status.event">
+    <app-relics-list [relics]="event"></app-relics-list>
+  </div>
+  <app-subtitle class="cursor-as-pointer mb2" (click)="toggleStatus('shop')" [title]="'Shop'"></app-subtitle>
+  <div *ngIf="status.shop">
+    <app-relics-list [relics]="shop"></app-relics-list>
+  </div>
+</div>

@@ -1,6 +1,6 @@
-<mat-card>
+<mat-card [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">
   <mat-card-header>
-    <div class="energy" *ngIf="card[version].energy">
+    <div class="energy" *ngIf="card[version].energy" [ngClass]="{'green': version === 'upgraded' && card.upgraded.energy != card.base.energy }">
       <span>{{card[version].energy}}</span>
     </div>
     <mat-card-title [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">{{card.name}}<span *ngIf="upgrade"> +</span></mat-card-title>

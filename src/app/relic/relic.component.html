@@ -1,3 +1,4 @@
-<p>
-  relic works!
-</p>
+<div matTooltip="{{relic.description}}" class="relic cursor-as-pointer">
+  <img [src]="baseImgSrc + relic.camelizeName + '.png'" [alt]="relic.name">
+  <div class="name">{{relic.name}}</div>
+</div>

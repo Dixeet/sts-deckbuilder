@@ -1,0 +1,5 @@
+<div class="flex flex-wrap">
+    <div *ngFor="let relic of relics | orderBy: 'name'" class="pr2 mb2">
+        <app-relic [relic]="relic"></app-relic>
+    </div>
+</div>
