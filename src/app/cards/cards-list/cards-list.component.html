@@ -1,3 +1,5 @@
-<p>
-  cards-list works!
-</p>
+<div class="flex flex-wrap justify-between content-stretch">
+    <div class="card mb2 pr2" *ngFor="let card of cards | orderBy: 'name'">
+        <app-card [card]="card"></app-card>
+    </div>
+</div>
