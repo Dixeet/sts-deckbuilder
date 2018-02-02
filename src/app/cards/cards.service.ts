@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { AbstractDataService } from './abstract-data.service';
+import { AbstractDataService } from '../core/abstract-data.service';
 import {Observable} from 'rxjs/Observable';
 
 @Injectable()

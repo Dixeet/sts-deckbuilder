@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {TitleService} from '../title.service';
+import {TitleService} from '../../core/title.service';
 import {map} from 'rxjs/operators';
 import {ActivatedRoute} from '@angular/router';
 import {RelicsService} from '../relics.service';

@@ -2,14 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import {CardsService} from '../cards.service';
 import {map} from 'rxjs/operators';
-import { TitleService } from '../title.service';
+import { TitleService } from '../../core/title.service';
 
 @Component({
-  selector: 'app-generic-card-page',
-  templateUrl: './generic-card-page.component.html',
-  styleUrls: ['./generic-card-page.component.css']
+  selector: 'app-card-page',
+  templateUrl: './card-page.component.html',
+  styleUrls: ['./card-page.component.css']
 })
-export class GenericCardPageComponent implements OnInit {
+export class CardPageComponent implements OnInit {
   url;
   cards: any[] = [];
   attacks: any[] = [];

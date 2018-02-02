@@ -35,9 +35,7 @@ mat-card-content {
 .energy {
     width: 40px;
     height: 40px;
-    background-image: url('/assets/images/standard/energy/energy.png');
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: url('/assets/images/standard/energy/energy.png') no-repeat center center;
     background-size: cover;
     position: absolute;
     top: -10px;

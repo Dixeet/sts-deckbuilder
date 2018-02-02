@@ -2,7 +2,7 @@ import {enableProdMode, Injectable} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {Observable} from 'rxjs/Observable';
 import { map } from 'rxjs/operators';
-import {environment} from '../environments/environment';
+import {environment} from '../../environments/environment';
 
 
 @Injectable()
