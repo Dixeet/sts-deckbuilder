@@ -1,19 +1,20 @@
-<div>
-    <app-subtitle [title]="'Attack'"></app-subtitle>
-    <div class="flex flex-wrap justify-center content-stretch">
-        <div class="card pr4 mb2" *ngFor="let card of attacks | orderBy: 'name'">
+<div class="container mx-auto">
+    <app-subtitle class="cursor-as-pointer" (click)="toggleStatus('attack')" [title]="'Attack'"></app-subtitle>
+    <div *ngIf="status.attack" class="flex flex-wrap justify-between content-stretch">
+        <div class="card mb2 pr2" *ngFor="let card of attacks | orderBy: 'name'">
             <app-card [card]="card"></app-card>
         </div>
     </div>
-    <app-subtitle [title]="'Spell'"></app-subtitle>
-    <div class="flex flex-wrap justify-center content-stretch">
-        <div class="card pr4 mb2" *ngFor="let card of skills | orderBy: 'name'">
+    <app-subtitle class="cursor-as-pointer" (click)="toggleStatus('skill')" [title]="'Skill'"></app-subtitle>
+    <div *ngIf="status.skill" class="flex flex-wrap justify-between content-stretch">
+        <div class="card pr2 mb2" *ngFor="let card of skills | orderBy: 'name'">
             <app-card [card]="card"></app-card>
         </div>
     </div>
-    <app-subtitle [title]="'Power'"></app-subtitle><div class="flex flex-wrap justify-center content-stretch">
-    <div class="card pr4 mb2" *ngFor="let card of powers | orderBy: 'name'">
-        <app-card [card]="card"></app-card>
+    <app-subtitle class="cursor-as-pointer" (click)="toggleStatus('power')" [title]="'Power'"></app-subtitle>
+    <div *ngIf="status.power" class="flex flex-wrap justify-between content-stretch">
+        <div class="card pr2 mb2" *ngFor="let card of powers | orderBy: 'name'">
+            <app-card [card]="card"></app-card>
+        </div>
     </div>
-</div>
 </div>

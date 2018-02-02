@@ -8,7 +8,6 @@ import { OrderModule } from 'ngx-order-pipe';
 
 
 import { AppComponent } from './app.component';
-import { CardsComponent } from './cards/cards.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DeckComponent } from './deck/deck.component';
@@ -19,18 +18,22 @@ import { CardsService } from './cards.service';
 import { TitleService} from './title.service';
 import { SubtitleComponent } from './subtitle/subtitle.component';
 import { CardComponent } from './card/card.component';
+import { RelicPageComponent } from './relic-page/relic-page.component';
+import { RelicComponent } from './relic/relic.component';
+import { RelicsService } from './relics.service';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardsComponent,
     NavbarComponent,
     DeckComponent,
     MainContentComponent,
     GenericCardPageComponent,
     SubtitleComponent,
-    CardComponent
+    CardComponent,
+    RelicPageComponent,
+    RelicComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +47,7 @@ import { CardComponent } from './card/card.component';
     MatButtonModule,
     MatCardModule,
   ],
-  providers: [AbstractDataService, CardsService, TitleService],
+  providers: [AbstractDataService, CardsService, TitleService, RelicsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

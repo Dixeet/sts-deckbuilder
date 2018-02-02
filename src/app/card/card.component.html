@@ -1,8 +1,11 @@
 <mat-card>
   <mat-card-header>
-    <mat-card-title>{{card.name}}<span *ngIf="upgrade"> +</span></mat-card-title>
+    <div class="energy" *ngIf="card[version].energy">
+      <span>{{card[version].energy}}</span>
+    </div>
+    <mat-card-title [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">{{card.name}}<span *ngIf="upgrade"> +</span></mat-card-title>
   </mat-card-header>
-  <img mat-card-image [src]="baseImgSrc + card.camelizeName + '.png'" alt="Photo of a Shiba Inu">
+  <img mat-card-image [src]="baseImgSrc + card.camelizeName + '.png'" [alt]="card.name">
   <mat-card-content>
     <p>
       {{card[version].description}}

@@ -1,0 +1,807 @@
+{
+  "x0": {
+    "id": "x0",
+    "name": "Burning Blood",
+    "camelizeName": "burningBlood",
+    "rarity": "Starter (Ironclad)",
+    "description": "At the end of combat, heal 6 HP."
+  },
+  "x1": {
+    "id": "x1",
+    "name": "Ring of the Snake",
+    "camelizeName": "ringOfTheSnake",
+    "rarity": "Starter (Silent)",
+    "description": "At the start of each combat, draw 2 additional cards."
+  },
+  "x2": {
+    "id": "x2",
+    "name": "Anchor",
+    "camelizeName": "anchor",
+    "rarity": "Common",
+    "description": "Start each combat with 10 Block."
+  },
+  "x3": {
+    "id": "x3",
+    "name": "Ancient Tea Set",
+    "camelizeName": "ancientTeaSet",
+    "rarity": "Common",
+    "description": "Whenever you enter a Rest Site, start the next combat with 2 Energy."
+  },
+  "x4": {
+    "id": "x4",
+    "name": "Art of War",
+    "camelizeName": "artOfWar",
+    "rarity": "Common",
+    "description": "If you do not play any Attacks during your turn, gain an extra Energy next turn."
+  },
+  "x5": {
+    "id": "x5",
+    "name": "Bag of Marbles",
+    "camelizeName": "bagOfMarbles",
+    "rarity": "Common",
+    "description": "At the start of each combat, apply 1 Vulnerable to ALL enemies."
+  },
+  "x6": {
+    "id": "x6",
+    "name": "Bag of Preparation",
+    "camelizeName": "bagOfPreparation",
+    "rarity": "Common",
+    "description": "At the start of each combat, draw 2 additional cards."
+  },
+  "x7": {
+    "id": "x7",
+    "name": "Blood Vial",
+    "camelizeName": "bloodVial",
+    "rarity": "Common",
+    "description": "At the start of each combat, heal 2 HP."
+  },
+  "x8": {
+    "id": "x8",
+    "name": "Bronze Scales",
+    "camelizeName": "bronzeScales",
+    "rarity": "Common",
+    "description": "Whenever you take damage, deal 3 damage back."
+  },
+  "x9": {
+    "id": "x9",
+    "name": "Dream Catcher",
+    "camelizeName": "dreamCatcher",
+    "rarity": "Common",
+    "description": "Whenever you rest, you may add a card to your deck."
+  },
+  "x10": {
+    "id": "x10",
+    "name": "Frozen Egg",
+    "camelizeName": "frozenEgg",
+    "rarity": "Common",
+    "description": "Upon pick up, choose and Upgrade a Power."
+  },
+  "x11": {
+    "id": "x11",
+    "name": "Happy Flower",
+    "camelizeName": "happyFlower",
+    "rarity": "Common",
+    "description": "Every 3 turns, gain 1 Energy."
+  },
+  "x12": {
+    "id": "x12",
+    "name": "Juzu Bracelet",
+    "camelizeName": "juzuBracelet",
+    "rarity": "Common",
+    "description": "Regular enemy combats are no longer encountered in ? rooms."
+  },
+  "x13": {
+    "id": "x13",
+    "name": "Lantern",
+    "camelizeName": "lantern",
+    "rarity": "Common",
+    "description": "Gain 1 Energy on the first turn of each combat."
+  },
+  "x14": {
+    "id": "x14",
+    "name": "Molten Egg",
+    "camelizeName": "moltenEgg",
+    "rarity": "Common",
+    "description": "Upon pick up, choose and Upgrade an Attack."
+  },
+  "x15": {
+    "id": "x15",
+    "name": "Oddly Smooth Stone",
+    "camelizeName": "oddlySmoothStone",
+    "rarity": "Common",
+    "description": "At the start of each combat, gain 1 Dexterity."
+  },
+  "x16": {
+    "id": "x16",
+    "name": "Omamori",
+    "camelizeName": "omamori",
+    "rarity": "Common",
+    "description": "Negate the next 2 Curses you obtain."
+  },
+  "x17": {
+    "id": "x17",
+    "name": "Orichalcum",
+    "camelizeName": "orichalcum",
+    "rarity": "Common",
+    "description": "If you end your turn without Block, gain 6 Block."
+  },
+  "x18": {
+    "id": "x18",
+    "name": "Pen Nib",
+    "camelizeName": "penNib",
+    "rarity": "Common",
+    "description": "Every 10th Attack you play deals double damage."
+  },
+  "x19": {
+    "id": "x19",
+    "name": "Prayer Wheel",
+    "camelizeName": "prayerWheel",
+    "rarity": "Common",
+    "description": "Non-Boss chests now also contain cards."
+  },
+  "x20": {
+    "id": "x20",
+    "name": "Regal Pillow",
+    "camelizeName": "regalPillow",
+    "rarity": "Common",
+    "description": "Heal an additional 15 HP when you Rest."
+  },
+  "x21": {
+    "id": "x21",
+    "name": "Singing Bowl",
+    "camelizeName": "singingBowl",
+    "rarity": "Common",
+    "description": "Whenever you skip a card reward, increase your Max HP by 2."
+  },
+  "x22": {
+    "id": "x22",
+    "name": "Snecko Skull",
+    "camelizeName": "sneckoSkull",
+    "rarity": "Common (Silent)",
+    "description": "Whenever you apply Poison, apply an additional 1 Poison."
+  },
+  "x23": {
+    "id": "x23",
+    "name": "Strawberry",
+    "camelizeName": "strawberry",
+    "rarity": "Common",
+    "description": "Raise your Max HP by 7."
+  },
+  "x24": {
+    "id": "x24",
+    "name": "Tiny Chest",
+    "camelizeName": "tinyChest",
+    "rarity": "Common",
+    "description": "Gain 30 Gold. You are 10% more likely to find treasure in ? rooms."
+  },
+  "x25": {
+    "id": "x25",
+    "name": "Toxic Egg",
+    "camelizeName": "toxicEgg",
+    "rarity": "Common",
+    "description": "Upon pick up, choose and Upgrade a Skill."
+  },
+  "x26": {
+    "id": "x26",
+    "name": "Vajra",
+    "camelizeName": "vajra",
+    "rarity": "Common",
+    "description": "At the start of each combat, gain 1 Strength."
+  },
+  "x27": {
+    "id": "x27",
+    "name": "War Paint",
+    "camelizeName": "warPaint",
+    "rarity": "Common",
+    "description": "Upon pick up, Upgrade 2 random Skills."
+  },
+  "x28": {
+    "id": "x28",
+    "name": "Whetstone",
+    "camelizeName": "whetstone",
+    "rarity": "Common",
+    "description": "Upon pick up, Upgrade 2 random Attacks."
+  },
+  "x29": {
+    "id": "x29",
+    "name": "Blue Candle",
+    "camelizeName": "blueCandle",
+    "rarity": "Uncommon",
+    "description": "Curse cards can now be played. Playing a Curse will make you lose 1 HP and Exhausts the card."
+  },
+  "x30": {
+    "id": "x30",
+    "name": "Bottled Flame",
+    "camelizeName": "bottledFlame",
+    "rarity": "Uncommon",
+    "description": "Upon pick up, choose an Attack card. At the start of each combat, this card will be in your hand."
+  },
+  "x31": {
+    "id": "x31",
+    "name": "Bottled Lightning",
+    "camelizeName": "bottledLightning",
+    "rarity": "Uncommon",
+    "description": "Upon pick up, choose a Skill card. At the start of each combat, this card will be in your hand."
+  },
+  "x32": {
+    "id": "x32",
+    "name": "Bottled Tornado",
+    "camelizeName": "bottledTornado",
+    "rarity": "Uncommon",
+    "description": "Upon pick up, choose a Power card. At the start of each combat, this card will be in your hand."
+  },
+  "x33": {
+    "id": "x33",
+    "name": "Centennial Puzzle",
+    "camelizeName": "centennialPuzzle",
+    "rarity": "Uncommon",
+    "description": "The first time you lose HP each combat, draw 3 cards."
+  },
+  "x34": {
+    "id": "x34",
+    "name": "Darkstone Periapt",
+    "camelizeName": "darkstonePeriapt",
+    "rarity": "Uncommon",
+    "description": "Whenever you obtain a Curse, increase your Max HP by 6."
+  },
+  "x35": {
+    "id": "x35",
+    "name": "Gremlin Horn",
+    "camelizeName": "gremlinHorn",
+    "rarity": "Uncommon",
+    "description": "Whenever an enemy dies, gain 1 Energy and draw 1 card."
+  },
+  "x36": {
+    "id": "x36",
+    "name": "Kunai",
+    "camelizeName": "kunai",
+    "rarity": "Uncommon",
+    "description": "Every time you play 3 Attacks in a single turn, gain 1 Dexterity."
+  },
+  "x37": {
+    "id": "x37",
+    "name": "Letter Opener",
+    "camelizeName": "letterOpener",
+    "rarity": "Uncommon",
+    "description": "Every time you play 3 Skills in a single turn, deal 5 damage to ALL enemies."
+  },
+  "x38": {
+    "id": "x38",
+    "name": "Matryoshka",
+    "camelizeName": "matryoshka",
+    "rarity": "Uncommon",
+    "description": "The next 2 chests you open contain 2 Relics. (Excludes boss chests)"
+  },
+  "x39": {
+    "id": "x39",
+    "name": "Meat on the Bone",
+    "camelizeName": "meatOnTheBone",
+    "rarity": "Uncommon",
+    "description": "If your HP is at or below 50% at the end of combat, heal 12 HP."
+  },
+  "x40": {
+    "id": "x40",
+    "name": "Mercury Hourglass",
+    "camelizeName": "mercuryHourglass",
+    "rarity": "Uncommon",
+    "description": "At the start of your turn, deal 3 damage to ALL enemies."
+  },
+  "x41": {
+    "id": "x41",
+    "name": "Mummified Hand",
+    "camelizeName": "mummifiedHand",
+    "rarity": "Uncommon",
+    "description": "Whenever you play a Power, a random card in your hand costs 0 for the turn."
+  },
+  "x42": {
+    "id": "x42",
+    "name": "Ninja Scroll",
+    "camelizeName": "ninjaScroll",
+    "rarity": "Uncommon (Silent)",
+    "description": "Start each combat with 3 Shivs in hand."
+  },
+  "x43": {
+    "id": "x43",
+    "name": "Ornamental Fan",
+    "camelizeName": "ornamentalFan",
+    "rarity": "Uncommon",
+    "description": "Every time you play 3 Attacks in a single turn, gain 4 Block."
+  },
+  "x44": {
+    "id": "x44",
+    "name": "Pantograph",
+    "camelizeName": "pantograph",
+    "rarity": "Uncommon",
+    "description": "At the start of boss combats, heal 25 HP."
+  },
+  "x45": {
+    "id": "x45",
+    "name": "Paper Krane",
+    "camelizeName": "paperKrane",
+    "rarity": "Uncommon",
+    "description": "Enemies with Weak deal 50% less damage rather than 25%."
+  },
+  "x46": {
+    "id": "x46",
+    "name": "Paper Phrog",
+    "camelizeName": "paperPhrog",
+    "rarity": "Uncommon",
+    "description": "Enemies with Vulnerable take 75% more damage rather than 50%."
+  },
+  "x47": {
+    "id": "x47",
+    "name": "Pear",
+    "camelizeName": "pear",
+    "rarity": "Uncommon",
+    "description": "Raise your Max HP by 10."
+  },
+  "x48": {
+    "id": "x48",
+    "name": "Runic Dodecahedron",
+    "camelizeName": "runicDodecahedron",
+    "rarity": "Uncommon",
+    "description": "If your HP is full, gain 1 Energy at the start of each turn."
+  },
+  "x49": {
+    "id": "x49",
+    "name": "Self-Forming Clay",
+    "camelizeName": "self-FormingClay",
+    "rarity": "Uncommon",
+    "description": "Whenever you lose HP in combat, gain 3 Block next turn."
+  },
+  "x50": {
+    "id": "x50",
+    "name": "Shuriken",
+    "camelizeName": "shuriken",
+    "rarity": "Uncommon",
+    "description": "Every time you play 3 Attacks in a single turn, gain 1 Strength."
+  },
+  "x51": {
+    "id": "x51",
+    "name": "Smiling Mask",
+    "camelizeName": "smilingMask",
+    "rarity": "Uncommon",
+    "description": "The merchant's card removal service now always costs 50 Gold."
+  },
+  "x52": {
+    "id": "x52",
+    "name": "The Courier",
+    "camelizeName": "theCourier",
+    "rarity": "Uncommon",
+    "description": "The merchant no longer runs out of cards, relics, or potions and his prices are reduced by 20%."
+  },
+  "x53": {
+    "id": "x53",
+    "name": "Toolbox",
+    "camelizeName": "toolbox",
+    "rarity": "Uncommon",
+    "description": "At the start of each combat, add a random colorless card to your hand."
+  },
+  "x54": {
+    "id": "x54",
+    "name": "Tough Bandages",
+    "camelizeName": "toughBandages",
+    "rarity": "Uncommon",
+    "description": "Whenever you discard a card during your turn, gain 3 Block."
+  },
+  "x55": {
+    "id": "x55",
+    "name": "Bird-Faced Urn",
+    "camelizeName": "bird-FacedUrn",
+    "rarity": "Rare",
+    "description": "Whenever you play a Power, heal 2 HP."
+  },
+  "x56": {
+    "id": "x56",
+    "name": "Calipers",
+    "camelizeName": "calipers",
+    "rarity": "Rare",
+    "description": "At the start of your turn, lose 15 Block rather than all of your Block."
+  },
+  "x57": {
+    "id": "x57",
+    "name": "Champion Belt",
+    "camelizeName": "championBelt",
+    "rarity": "Rare",
+    "description": "Whenever you apply Vulnerable, also apply 1 Weak."
+  },
+  "x58": {
+    "id": "x58",
+    "name": "Charon's Ashes",
+    "camelizeName": "charon'SAshes",
+    "rarity": "Rare",
+    "description": "Whenever you Exhaust a card, deal 3 damage to ALL enemies."
+  },
+  "x59": {
+    "id": "x59",
+    "name": "Dead Branch",
+    "camelizeName": "deadBranch",
+    "rarity": "Rare",
+    "description": "Whenever you Exhaust a card, add a random card to your hand."
+  },
+  "x60": {
+    "id": "x60",
+    "name": "Du-Vu Doll",
+    "camelizeName": "du-VuDoll",
+    "rarity": "Rare",
+    "description": "For each Curse in your deck, start each combat with 1 additional Strength."
+  },
+  "x61": {
+    "id": "x61",
+    "name": "Frozen Eye",
+    "camelizeName": "frozenEye",
+    "rarity": "Rare",
+    "description": "When viewing your Draw Pile, the cards are now shown in order."
+  },
+  "x62": {
+    "id": "x62",
+    "name": "Gambling Chip",
+    "camelizeName": "gamblingChip",
+    "rarity": "Rare",
+    "description": "At the start of each combat, discard any number of cards then draw that many."
+  },
+  "x63": {
+    "id": "x63",
+    "name": "Ginger",
+    "camelizeName": "ginger",
+    "rarity": "Rare",
+    "description": "You can no longer become Weakened."
+  },
+  "x64": {
+    "id": "x64",
+    "name": "Girya",
+    "camelizeName": "girya",
+    "rarity": "Rare",
+    "description": "You can now gain Strength at Rest Sites. (3 times max)"
+  },
+  "x65": {
+    "id": "x65",
+    "name": "Ice Cream",
+    "camelizeName": "iceCream",
+    "rarity": "Rare",
+    "description": "Energy is now conserved between turns."
+  },
+  "x66": {
+    "id": "x66",
+    "name": "Magic Flower",
+    "camelizeName": "magicFlower",
+    "rarity": "Rare",
+    "description": "Healing is 50% more effective during combat."
+  },
+  "x67": {
+    "id": "x67",
+    "name": "Mango",
+    "camelizeName": "mango",
+    "rarity": "Rare",
+    "description": "Raise your Max HP by 14."
+  },
+  "x68": {
+    "id": "x68",
+    "name": "Old Coin",
+    "camelizeName": "oldCoin",
+    "rarity": "Rare",
+    "description": "Gain 300 Gold."
+  },
+  "x69": {
+    "id": "x69",
+    "name": "Peace Pipe",
+    "camelizeName": "peacePipe",
+    "rarity": "Rare",
+    "description": "You can now remove cards from your deck at Rest Sites."
+  },
+  "x70": {
+    "id": "x70",
+    "name": "Red Skull",
+    "camelizeName": "redSkull",
+    "rarity": "Rare",
+    "description": "While your HP is at or below 50%, you have 3 additional Strength."
+  },
+  "x71": {
+    "id": "x71",
+    "name": "Shovel",
+    "camelizeName": "shovel",
+    "rarity": "Rare",
+    "description": "You can now Dig for loot at Rest Sites."
+  },
+  "x72": {
+    "id": "x72",
+    "name": "Sundial",
+    "camelizeName": "sundial",
+    "rarity": "Rare",
+    "description": "Every 3 times you shuffle your deck, gain 2 Energy."
+  },
+  "x73": {
+    "id": "x73",
+    "name": "Thread and Needle",
+    "camelizeName": "threadAndNeedle",
+    "rarity": "Rare",
+    "description": "At the start of each combat, gain 5 Plated Armor."
+  },
+  "x74": {
+    "id": "x74",
+    "name": "Tingsha",
+    "camelizeName": "tingsha",
+    "rarity": "Rare",
+    "description": "Whenever you discard a card during your turn, deal 3 damage to a random enemy for each card discarded."
+  },
+  "x75": {
+    "id": "x75",
+    "name": "Torii",
+    "camelizeName": "torii",
+    "rarity": "Rare",
+    "description": "Whenever you would receive 5 or less unblocked Attack damage, reduce it to 1."
+  },
+  "x76": {
+    "id": "x76",
+    "name": "Unceasing Top",
+    "camelizeName": "unceasingTop",
+    "rarity": "Rare",
+    "description": "Whenever you have no cards in hand during your turn, draw a card."
+  },
+  "x77": {
+    "id": "x77",
+    "name": "Astrolabe",
+    "camelizeName": "astrolabe",
+    "rarity": "Boss",
+    "description": "Upon pickup, choose and Transform 3 cards, then Upgrade them."
+  },
+  "x78": {
+    "id": "x78",
+    "name": "Black Blood",
+    "camelizeName": "blackBlood",
+    "rarity": "Boss (Ironclad)",
+    "description": "Replaces Burning Blood. At the end of combat, heal 10 HP."
+  },
+  "x79": {
+    "id": "x79",
+    "name": "Black Star",
+    "camelizeName": "blackStar",
+    "rarity": "Boss",
+    "description": "Elites now drop 2 Relics when defeated."
+  },
+  "x80": {
+    "id": "x80",
+    "name": "Calling Bell",
+    "camelizeName": "callingBell",
+    "rarity": "Boss",
+    "description": "Obtain 3 Curses and 3 Relics."
+  },
+  "x81": {
+    "id": "x81",
+    "name": "Cursed Key",
+    "camelizeName": "cursedKey",
+    "rarity": "Boss",
+    "description": "Gain 1 Energy at the start of each turn. Whenever you open a non-boss chest, obtain a Curse."
+  },
+  "x82": {
+    "id": "x82",
+    "name": "Ectoplasm",
+    "camelizeName": "ectoplasm",
+    "rarity": "Boss",
+    "description": "Gain 1 Energy at the start of each turn. You can no longer gain Gold."
+  },
+  "x83": {
+    "id": "x83",
+    "name": "Eternal Feather",
+    "camelizeName": "eternalFeather",
+    "rarity": "Boss",
+    "description": "For every 5 cards in your deck, heal 2 HP whenever you enter a Rest Site."
+  },
+  "x84": {
+    "id": "x84",
+    "name": "Lizard Tail",
+    "camelizeName": "lizardTail",
+    "rarity": "Boss",
+    "description": "When you would die, heal to 50% of your Max HP instead (works once)."
+  },
+  "x85": {
+    "id": "x85",
+    "name": "Mark of Pain",
+    "camelizeName": "markOfPain",
+    "rarity": "Boss",
+    "description": "Gain 1 Energy at the start of each turn. Start combats with 2 Wounds in your draw pile."
+  },
+  "x86": {
+    "id": "x86",
+    "name": "Orrery",
+    "camelizeName": "orrery",
+    "rarity": "Boss",
+    "description": "Choose and add 5 cards to your deck."
+  },
+  "x87": {
+    "id": "x87",
+    "name": "Pandora's Box",
+    "camelizeName": "pandora'SBox",
+    "rarity": "Boss",
+    "description": "Transform all Strikes and Defends."
+  },
+  "x88": {
+    "id": "x88",
+    "name": "Philosopher's Stone",
+    "camelizeName": "philosopher'SStone",
+    "rarity": "Boss",
+    "description": "Gain 1 Energy at the start of each turn. ALL enemies start with 2 Strength."
+  },
+  "x89": {
+    "id": "x89",
+    "name": "Question Card",
+    "camelizeName": "questionCard",
+    "rarity": "Boss",
+    "description": "On Card Reward screens, choose from 4 cards instead of 3."
+  },
+  "x90": {
+    "id": "x90",
+    "name": "Runic Cube",
+    "camelizeName": "runicCube",
+    "rarity": "Boss",
+    "description": "Max HP is lowered by 20%. Whenever you lose HP, draw 1 card."
+  },
+  "x91": {
+    "id": "x91",
+    "name": "Runic Dome",
+    "camelizeName": "runicDome",
+    "rarity": "Boss",
+    "description": "Gain 1 Energy at the start of each turn. You can no longer see enemy Intents."
+  },
+  "x92": {
+    "id": "x92",
+    "name": "Runic Pyramid",
+    "camelizeName": "runicPyramid",
+    "rarity": "Boss",
+    "description": "At the end of your turn, you no longer discard your hand. Draw 1 less card each turn."
+  },
+  "x93": {
+    "id": "x93",
+    "name": "Snecko Eye",
+    "camelizeName": "sneckoEye",
+    "rarity": "Boss",
+    "description": "Draw 2 additional cards each turn. Start each combat Confused."
+  },
+  "x94": {
+    "id": "x94",
+    "name": "Sozu",
+    "camelizeName": "sozu",
+    "rarity": "Boss",
+    "description": "Gain 1 Energy at the start of each turn. You can no longer use potions."
+  },
+  "x95": {
+    "id": "x95",
+    "name": "The Specimen",
+    "camelizeName": "theSpecimen",
+    "rarity": "Boss (Silent)",
+    "description": "Whenever an enemy dies, transfer any Poison it has to a random enemy."
+  },
+  "x96": {
+    "id": "x96",
+    "name": "Tiny House",
+    "camelizeName": "tinyHouse",
+    "rarity": "Boss",
+    "description": "Obtain 1 potion. Gain 30 Gold. Raise your Max HP by 5. Obtain 1 card."
+  },
+  "x97": {
+    "id": "x97",
+    "name": "Velvet Choker",
+    "camelizeName": "velvetChoker",
+    "rarity": "Boss",
+    "description": "Gain 1 Energy at the start of each turn. You cannot play more than 6 cards per turn."
+  },
+  "x98": {
+    "id": "x98",
+    "name": "White Beast Statue",
+    "camelizeName": "whiteBeastStatue",
+    "rarity": "Boss",
+    "description": "Potions always drop after combat."
+  },
+  "x99": {
+    "id": "x99",
+    "name": "Bloody Idol",
+    "camelizeName": "bloodyIdol",
+    "rarity": "Event",
+    "description": "Whenever you gain Gold, heal 5 HP."
+  },
+  "x100": {
+    "id": "x100",
+    "name": "Enchiridion",
+    "camelizeName": "enchiridion",
+    "rarity": "Event",
+    "description": "Start each combat with a random Power card in your hand. It costs 0 until the end of turn."
+  },
+  "x101": {
+    "id": "x101",
+    "name": "Golden Idol",
+    "camelizeName": "goldenIdol",
+    "rarity": "Event",
+    "description": "Enemies drop 25% more Gold."
+  },
+  "x102": {
+    "id": "x102",
+    "name": "Necronomicon",
+    "camelizeName": "necronomicon",
+    "rarity": "Event",
+    "description": "The first Attack played each turn that costs 2 or more is played twice. When you take this relic, become Cursed."
+  },
+  "x103": {
+    "id": "x103",
+    "name": "Neow's Lament",
+    "camelizeName": "neow'SLament",
+    "rarity": "Event",
+    "description": "Enemies in your first 3 combats will have 1 HP."
+  },
+  "x104": {
+    "id": "x104",
+    "name": "Nilry's Codex",
+    "camelizeName": "nilry'SCodex",
+    "rarity": "Event",
+    "description": "At the end of each turn, you can choose 1 of 3 random cards to shuffle into your draw pile."
+  },
+  "x105": {
+    "id": "x105",
+    "name": "Nloth's Gift",
+    "camelizeName": "nloth'SGift",
+    "rarity": "Event",
+    "description": "Triples the chance of receiving rare cards as monster rewards."
+  },
+  "x106": {
+    "id": "x106",
+    "name": "Odd Mushroom",
+    "camelizeName": "oddMushroom",
+    "rarity": "Event",
+    "description": "When Vulnerable, take 25% more damage rather than 50%."
+  },
+  "x107": {
+    "id": "x107",
+    "name": "Red Mask",
+    "camelizeName": "redMask",
+    "rarity": "Event",
+    "description": "At the start of each combat, apply 1 Weak to ALL enemies."
+  },
+  "x108": {
+    "id": "x108",
+    "name": "Spirit Poop",
+    "camelizeName": "spiritPoop",
+    "rarity": "Event",
+    "description": "It's unpleasant."
+  },
+  "x109": {
+    "id": "x109",
+    "name": "Cauldron",
+    "camelizeName": "cauldron",
+    "rarity": "Shop",
+    "description": "When obtained, brews 5 random potions."
+  },
+  "x110": {
+    "id": "x110",
+    "name": "Lee's Waffle",
+    "camelizeName": "lee'SWaffle",
+    "rarity": "Shop",
+    "description": "Raise your Max HP by 7 and heal all of your HP."
+  },
+  "x111": {
+    "id": "x111",
+    "name": "Medical Kit",
+    "camelizeName": "medicalKit",
+    "rarity": "Shop",
+    "description": "Status cards can now be played. Playing a Status will Exhaust the card."
+  },
+  "x112": {
+    "id": "x112",
+    "name": "Membership Card",
+    "camelizeName": "membershipCard",
+    "rarity": "Shop",
+    "description": "In future acts, shops appear 50% more often. BONUS: 20% discount on all products!"
+  },
+  "x113": {
+    "id": "x113",
+    "name": "Strange Spoon",
+    "camelizeName": "strangeSpoon",
+    "rarity": "Shop",
+    "description": "Cards which Exhaust when played will instead discard 50% of the time."
+  },
+  "x114": {
+    "id": "x114",
+    "name": "Toy Ornithopter",
+    "camelizeName": "toyOrnithopter",
+    "rarity": "Shop",
+    "description": "Whenever you use a potion, heal 3 HP."
+  }
+}

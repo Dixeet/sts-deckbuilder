@@ -15,6 +15,11 @@ export class GenericCardPageComponent implements OnInit {
   attacks: any[] = [];
   skills: any[] = [];
   powers: any[] = [];
+  status: object = {
+    attack: true,
+    skill: true,
+    power: true
+  };
 
   constructor(private route: ActivatedRoute, private cardsService: CardsService, private titleService: TitleService) {
     this.route.url.pipe(map(segments => segments.join(''))).subscribe(url => this.url = url);
@@ -43,6 +48,10 @@ export class GenericCardPageComponent implements OnInit {
           break;
       }
     });
+  }
+
+  toggleStatus(type) {
+    this.status[type] = !this.status[type];
   }
 
   ngOnInit() {

@@ -26,3 +26,7 @@ app-root {
     background: #e91e63;
     color: white;
 }
+
+.cursor-as-pointer {
+    cursor: pointer;
+}

@@ -1,4 +1,7 @@
 .card {
-    /*flex: 100;*/
-    width: 11.5%;
+    width: 200px;
+}
+
+.container {
+    width: 75%;
 }

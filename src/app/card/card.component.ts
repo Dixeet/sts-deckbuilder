@@ -11,7 +11,7 @@ export class CardComponent implements OnInit {
   @Input() card: any;
   baseImgSrc = '/assets/images/standard/cards/';
   upgrade = false;
-  version: String = 'base';
+  version = 'base';
 
   constructor() { }
 
