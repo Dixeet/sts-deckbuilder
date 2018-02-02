@@ -2,7 +2,7 @@
   "n0": {
     "id": "n0",
     "name": "J.A.X",
-    "camelizeName": "j.A.X",
+    "camelizeName": "jax",
     "rarity": "Common",
     "type": "Skill",
     "base": {

@@ -1,5 +1,19 @@
 <div>
     <app-subtitle [title]="'Attack'"></app-subtitle>
+    <div class="flex flex-wrap justify-center content-stretch">
+        <div class="card pr4 mb2" *ngFor="let card of attacks | orderBy: 'name'">
+            <app-card [card]="card"></app-card>
+        </div>
+    </div>
     <app-subtitle [title]="'Spell'"></app-subtitle>
-    <app-subtitle [title]="'Power'"></app-subtitle>
+    <div class="flex flex-wrap justify-center content-stretch">
+        <div class="card pr4 mb2" *ngFor="let card of skills | orderBy: 'name'">
+            <app-card [card]="card"></app-card>
+        </div>
+    </div>
+    <app-subtitle [title]="'Power'"></app-subtitle><div class="flex flex-wrap justify-center content-stretch">
+    <div class="card pr4 mb2" *ngFor="let card of powers | orderBy: 'name'">
+        <app-card [card]="card"></app-card>
+    </div>
+</div>
 </div>

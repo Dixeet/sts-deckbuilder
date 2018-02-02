@@ -1,0 +1,21 @@
+mat-card {
+    text-align: center;
+    padding: 15px 24px 24px 24px !important;
+}
+
+mat-card-header > div.mat-card-header-text {
+    margin: 0 auto ;
+}
+
+mat-card-content > p {
+    vertical-align: middle;
+}
+
+mat-card-content {
+    min-height: 60px;
+    display: flex !important;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 -10px !important;
+}

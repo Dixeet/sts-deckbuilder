@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import {CardsService} from '../cards.service';
-import 'rxjs/add/operator/map';
+import {map} from 'rxjs/operators';
 import { TitleService } from '../title.service';
 
 @Component({
@@ -10,26 +10,42 @@ import { TitleService } from '../title.service';
   styleUrls: ['./generic-card-page.component.css']
 })
 export class GenericCardPageComponent implements OnInit {
-  url: String;
+  url;
+  cards: any[] = [];
+  attacks: any[] = [];
+  skills: any[] = [];
+  powers: any[] = [];
 
   constructor(private route: ActivatedRoute, private cardsService: CardsService, private titleService: TitleService) {
-    this.route.url.map(segments => segments.join('')).subscribe(url => this.url = url);
+    this.route.url.pipe(map(segments => segments.join(''))).subscribe(url => this.url = url);
     this.titleService.setTitle(`${this.url} cards`);
+    this.getCurrentCollectionCards();
+  }
+
+  private getCurrentCollectionCards() {
+    this.cardsService.getAllCards(this.url).subscribe(cards => {
+      this.cards = cards;
+      this.assignType();
+    });
+  }
+
+  private assignType() {
+    this.cards.forEach(card => {
+      switch (card.type) {
+        case 'Attack':
+          this.attacks.push(card);
+          break;
+        case 'Power':
+          this.powers.push(card);
+          break;
+        case 'Skill':
+          this.skills.push(card);
+          break;
+      }
+    });
   }
 
   ngOnInit() {
-    // this.url.subscribe(url => console.log(url));
-    console.log(this.url);
-    // this.cardsService.getAllCards().subscribe(cards => {
-    //   console.log(cards);
-    // });
-    // this.cardsService.getAllCards('silent').subscribe(cards => {
-    //   console.log(cards);
-    // });
-    // this.cardsService.findOneById('i3').subscribe(cards => {
-    //   console.log(cards);
-    // });
-
   }
 
 }

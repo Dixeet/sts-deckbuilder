@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { HttpClientModule }    from '@angular/common/http';
-import {MatButtonModule, MatToolbarModule} from '@angular/material/';
+import {MatButtonModule, MatToolbarModule, MatCardModule} from '@angular/material/';
+import { OrderModule } from 'ngx-order-pipe';
 
 
 import { AppComponent } from './app.component';
@@ -17,6 +18,7 @@ import { AbstractDataService } from './abstract-data.service';
 import { CardsService } from './cards.service';
 import { TitleService} from './title.service';
 import { SubtitleComponent } from './subtitle/subtitle.component';
+import { CardComponent } from './card/card.component';
 
 
 @NgModule({
@@ -27,7 +29,8 @@ import { SubtitleComponent } from './subtitle/subtitle.component';
     DeckComponent,
     MainContentComponent,
     GenericCardPageComponent,
-    SubtitleComponent
+    SubtitleComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
@@ -35,9 +38,11 @@ import { SubtitleComponent } from './subtitle/subtitle.component';
     BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
+    OrderModule,
 
     MatToolbarModule,
     MatButtonModule,
+    MatCardModule,
   ],
   providers: [AbstractDataService, CardsService, TitleService],
   bootstrap: [AppComponent]

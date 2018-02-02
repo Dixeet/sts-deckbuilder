@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'dist')));
 // API location
 app.use('/api', api);
 
-app.get('/assets', express.static(path.join(__dirname, process.env.NODE_ENV == 'production' ? 'dist/assets' : 'src/assets')));
+// app.get('/assets', express.static(path.join(__dirname, process.env.NODE_ENV == 'production' ? 'dist/assets' : 'src/assets')));
 
 // Send all other requests to the Angular app
 app.get('*', (req, res) => {

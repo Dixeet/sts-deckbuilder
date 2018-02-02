@@ -14,6 +14,14 @@ body > * {
     flex-shrink: 0;
 }
 
+app-root {
+    position: absolute;
+    top: 52px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .dk-pink {
     background: #e91e63;
     color: white;

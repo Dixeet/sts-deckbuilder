@@ -1,0 +1,14 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{card.name}}<span *ngIf="upgrade"> +</span></mat-card-title>
+  </mat-card-header>
+  <img mat-card-image [src]="baseImgSrc + card.camelizeName + '.png'" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+      {{card[version].description}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button (click)="toggleUpgrade()"  color="accent"><span *ngIf="!upgrade">Upgrade</span><span *ngIf="upgrade">Downgrade</span></button>
+  </mat-card-actions>
+</mat-card>
