@@ -15,7 +15,7 @@ export class GenericCardPageComponent implements OnInit {
   attacks: any[] = [];
   skills: any[] = [];
   powers: any[] = [];
-  status: object = {
+  status = {
     attack: true,
     skill: true,
     power: true

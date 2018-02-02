@@ -20,7 +20,7 @@ export class RelicPageComponent implements OnInit {
   boss: any[] = [];
   event: any[] = [];
   shop: any[] = [];
-  status: object = {
+  status = {
     starter: true,
     common: true,
     uncommon: true,
