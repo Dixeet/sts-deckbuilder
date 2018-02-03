@@ -1,4 +1,4 @@
-<mat-toolbar><h1>{{title}}</h1></mat-toolbar>
+<mat-toolbar *ngIf="title"><h1>{{title}}</h1></mat-toolbar>
 <div>
   <router-outlet></router-outlet>
 </div>

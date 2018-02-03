@@ -24,8 +24,12 @@ mat-card-content {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    margin: 0 -10px !important;
+    margin: 0 -12px !important;
     color: white;
+    /*padding: 5px;*/
+    /*border: 1px solid dimgrey;*/
+    /*background-color: #212121;*/
+    /*border-radius: 10px;*/
 }
 
 .green, .energy.green > span {

@@ -24,7 +24,6 @@ export class CardPageComponent implements OnInit {
   constructor(private route: ActivatedRoute, private cardsService: CardsService, private titleService: TitleService) {
     this.route.url.pipe(map(segments => segments.join(''))).subscribe(url => this.url = url);
     this.titleService.setTitle(`${this.url} cards`);
-    this.getCurrentCollectionCards();
   }
 
   private getCurrentCollectionCards() {
@@ -55,6 +54,7 @@ export class CardPageComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.getCurrentCollectionCards();
   }
 
 }

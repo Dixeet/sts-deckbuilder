@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {TitleService} from '../../core/title.service';
-import {map} from 'rxjs/operators';
-import {ActivatedRoute} from '@angular/router';
 import {RelicsService} from '../relics.service';
 
 @Component({
@@ -10,8 +8,6 @@ import {RelicsService} from '../relics.service';
   styleUrls: ['./relic-page.component.css']
 })
 export class RelicPageComponent implements OnInit {
-
-  // url;
   relics: any[] = [];
   starter: any[] = [];
   common: any[] = [];
@@ -30,10 +26,8 @@ export class RelicPageComponent implements OnInit {
     shop: true,
   };
 
-  constructor(private route: ActivatedRoute, private relicsService: RelicsService, private titleService: TitleService) {
-    // this.route.url.pipe(map(segments => segments.join(''))).subscribe(url => this.url = url);
-    this.titleService.setTitle('Relics ');
-    this.getCurrentCollectionRelic();
+  constructor(private relicsService: RelicsService, private titleService: TitleService) {
+    this.titleService.setTitle('Relics');
   }
 
   private getCurrentCollectionRelic() {
@@ -76,6 +70,7 @@ export class RelicPageComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.getCurrentCollectionRelic();
   }
 
 }

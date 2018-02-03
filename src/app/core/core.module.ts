@@ -1,7 +1,7 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
-import {MatButtonModule, MatToolbarModule} from '@angular/material';
+import {MatButtonModule, MatMenuModule, MatToolbarModule} from '@angular/material';
 
 import {NavbarComponent} from './navbar/navbar.component';
 import {MainContentComponent} from './main-content/main-content.component';
@@ -17,6 +17,7 @@ import {TitleService} from './title.service';
     AppRoutingModule,
     MatButtonModule,
     MatToolbarModule,
+    MatMenuModule,
     CardsModule,
     RelicsModule,
     DeckModule
