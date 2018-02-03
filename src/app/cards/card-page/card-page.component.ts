@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import {CardsService} from '../cards.service';
 import {map} from 'rxjs/operators';
 import { TitleService } from '../../core/title.service';
+import {Card} from '../../share/card';
 
 @Component({
   selector: 'app-card-page',
@@ -11,10 +12,10 @@ import { TitleService } from '../../core/title.service';
 })
 export class CardPageComponent implements OnInit {
   url;
-  cards: any[] = [];
-  attacks: any[] = [];
-  skills: any[] = [];
-  powers: any[] = [];
+  cards: Card[] = [];
+  attacks: Card[] = [];
+  skills: Card[] = [];
+  powers: Card[] = [];
   status = {
     attack: true,
     skill: true,

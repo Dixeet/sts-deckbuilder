@@ -10,15 +10,8 @@ export class CardComponent implements OnInit {
 
   @Input() card: any;
   baseImgSrc = '/assets/images/standard/cards/';
-  upgrade = false;
-  version = 'base';
 
   constructor() { }
-
-  toggleUpgrade(): void {
-    this.upgrade = !this.upgrade;
-    this.version = this.upgrade ? 'upgraded' : 'base';
-  }
 
   ngOnInit() {
   }

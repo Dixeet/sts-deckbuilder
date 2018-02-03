@@ -3,7 +3,7 @@ const dataService = require('../dataService');
 dataService.load('cards');
 
 exports.getAll = (req, res) => {
-    res.json(dataService.getAll('cards'));
+    res.json(Object.values(dataService.getAll('cards')));
 };
 
 exports.findById = (req, res) => {
@@ -15,13 +15,13 @@ exports.findById = (req, res) => {
 };
 
 exports.getAllIronclad = (req, res) => {
-    res.json(dataService.cards.ironclad);
+    res.json(Object.values(dataService.cards.ironclad));
 };
 
 exports.getAllSilent = (req, res) => {
-    res.json(dataService.cards.silent);
+    res.json(Object.values(dataService.cards.silent));
 };
 
 exports.getAllNeutral = (req, res) => {
-    res.json(dataService.cards.neutral);
+    res.json(Object.values(dataService.cards.neutral));
 };

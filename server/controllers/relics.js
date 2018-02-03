@@ -3,7 +3,7 @@ const dataService = require('../dataService');
 dataService.load('relics');
 
 exports.getAll = (req, res) => {
-    res.json(dataService.relics.relics);
+    res.json(Object.values(dataService.relics.relics));
 };
 
 exports.findById = (req, res) => {

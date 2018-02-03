@@ -8,10 +8,12 @@ import {OrderModule} from 'ngx-order-pipe';
     CommonModule,
     OrderModule,
   ],
-  declarations: [SubtitleComponent],
+  declarations: [
+    SubtitleComponent,
+  ],
   exports: [
     SubtitleComponent,
-    OrderModule
+    OrderModule,
   ]
 })
 export class ShareModule { }

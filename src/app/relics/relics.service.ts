@@ -13,7 +13,7 @@ export class RelicsService {
   }
 
   private getArray(url): Observable<any> {
-    return this.abstractDataService.getArray(this.baseUrl + url);
+    return this.abstractDataService.get(this.baseUrl + url);
   }
 
   getAllRelics(type = ''): Observable<any> {

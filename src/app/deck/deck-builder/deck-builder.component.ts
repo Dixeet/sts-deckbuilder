@@ -18,11 +18,6 @@ export class DeckBuilderComponent implements OnInit {
     // this.sidenav.open();
   }
 
-  ngAfterViewInit() {
-    // console.log(this.mainStepper);
-    // this.mainStepper.next();
-    // setTimeout(() => this.mainStepper.next(), 1000);
-  }
 
 
 }

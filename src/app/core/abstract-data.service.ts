@@ -1,7 +1,6 @@
 import {enableProdMode, Injectable} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {Observable} from 'rxjs/Observable';
-import { map } from 'rxjs/operators';
 import {environment} from '../../environments/environment';
 
 
@@ -14,17 +13,8 @@ export class AbstractDataService {
 
   // constructor() {}
 
-  get(url): Observable<any> {
-    return this.http.get<any>(this.baseUrl + url);
-  }
-
-  getArray(url): Observable<any> {
-    return this.get(url).pipe(map(this.transformToArray));
-  }
-
-  private transformToArray(object) {
-    // noinspection Annotator
-    return Object.values(object);
+  get(url): Observable<any[]> {
+    return this.http.get<any[]>(this.baseUrl + url);
   }
 
 }
