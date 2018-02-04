@@ -1,5 +1,5 @@
 import {Component, OnInit, ViewChild, AfterViewInit} from '@angular/core';
-import {TitleService} from '../../core/title.service';
+import {TitleService} from '../core/title.service';
 import {DeckBuilderStepperComponent} from './deck-builder-stepper/deck-builder-stepper.component';
 
 @Component({

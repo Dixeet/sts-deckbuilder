@@ -1,11 +1,9 @@
 <nav class="flex navbar-header dk-pink px2 py1">
   <div class="border-right-white">
-    <button mat-button [matMenuTriggerFor]="menu">Deck</button>
-    <mat-menu #menu="matMenu">
-      <a routerLink="/deck/builder" mat-menu-item>Build a new deck</a>
-      <a routerLink="/deck/consult" mat-menu-item>Consult a Deck</a>
-    </mat-menu>
-    <!--<a mat-button routerLink="/deck">Deck</a>-->
+    <a mat-button routerLink="/deck/builder">Deck Builder</a>
+  </div>
+  <div class="border-right-white">
+    <a mat-button routerLink="/deck/viewer">Deck Viewer</a>
   </div>
   <div class="flex-auto border-right-white"></div>
   <div class="border-right-white">

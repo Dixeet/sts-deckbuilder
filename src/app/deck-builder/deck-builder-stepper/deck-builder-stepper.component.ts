@@ -22,4 +22,8 @@ export class DeckBuilderStepperComponent implements OnInit {
     this.stepper.previous();
   }
 
+  getCurrentStep(): number {
+    return this.stepper.selectedIndex;
+  }
+
 }

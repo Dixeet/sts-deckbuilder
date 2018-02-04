@@ -1,0 +1,25 @@
+<div>
+  <h2 class="theme-title py2 mt0 text-center"><span>Choose your character</span></h2>
+  <div class="flex flex-wrap justify-around">
+    <div class="col-5 mb1">
+      <div class="choose-charac-img-wrapper cursor-as-pointer">
+        <img class="img-responsive" src="/assets/images/standard/characters/ironcladPortrait.jpg" alt="ironclad">
+        <div (click)="chooseCharacter('ironclad')" class="character-overlay flex justify-center flex-column">
+          <div>
+            Ironclad
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-5 mb1">
+      <div class="choose-charac-img-wrapper cursor-as-pointer">
+        <img class="img-responsive" src="/assets/images/standard/characters/silentPortrait.jpg" alt="silent">
+        <div (click)="chooseCharacter('silent')" class="character-overlay flex justify-center flex-column">
+          <div>
+            Silent
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -3,7 +3,7 @@
     <app-deck-builder-stepper #stepper></app-deck-builder-stepper>
   </mat-sidenav>
   <mat-sidenav-content>
-    <app-deck-builder-content></app-deck-builder-content>
+    <app-deck-builder-content [stepper]="mainStepper.stepper"></app-deck-builder-content>
   </mat-sidenav-content>
   <mat-sidenav position="end" fixedInViewport="true" fixedTopGap="52" mode="side" opened="true">
     <app-deck-builder-current-deck></app-deck-builder-current-deck>

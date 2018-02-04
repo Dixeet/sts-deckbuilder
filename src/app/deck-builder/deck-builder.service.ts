@@ -18,19 +18,23 @@ export class DeckBuilderService {
   }
 
   public upgrade(index): void {
-    this.deck.cards[index].isUpgraded = true;
+    this.deck.cards[index].upgrade();
   }
 
   public downgrade(index): void {
-    this.deck.cards[index].isUpgraded = false;
+    this.deck.cards[index].downgrade();
   }
 
   public markImportant(index): void {
-    this.deck.cards[index].isImportant = true;
+    this.deck.cards[index].markImportant();
   }
 
   public  unmarkImportant(index): void {
-    this.deck.cards[index].isImportant = false;
+    this.deck.cards[index].unmarkImportant();
+  }
+
+  public setCharacter(character): void {
+    this.deck.characacter = character;
   }
 
 }

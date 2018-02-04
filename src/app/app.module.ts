@@ -7,7 +7,8 @@ import { AbstractDataService } from './core/abstract-data.service';
 import { CoreModule } from './core/core.module';
 import { CardsModule } from './cards/cards.module';
 import { RelicsModule } from './relics/relics.module';
-import { DeckModule } from './deck/deck.module';
+import { DeckViewerModule } from './deck-viewer/deck-viewer.module';
+import {DeckBuilderModule} from './deck-builder/deck-builder.module';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { DeckModule } from './deck/deck.module';
     CoreModule,
     CardsModule,
     RelicsModule,
-    DeckModule,
+    DeckBuilderModule,
+    DeckViewerModule,
   ],
   providers: [AbstractDataService],
   bootstrap: [AppComponent]

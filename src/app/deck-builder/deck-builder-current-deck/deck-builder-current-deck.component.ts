@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {DeckBuilderService} from '../deck-builder.service';
 
 @Component({
   selector: 'app-deck-builder-current-deck',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DeckBuilderCurrentDeckComponent implements OnInit {
 
-  constructor() { }
+  constructor(public deckService: DeckBuilderService) { }
 
   ngOnInit() {
   }

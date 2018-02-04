@@ -43,3 +43,12 @@ h1, h2, h3, h4 {
 .theme-title-small {
     border-bottom: 1px solid #e91e63;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
