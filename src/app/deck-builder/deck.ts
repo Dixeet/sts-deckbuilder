@@ -4,5 +4,5 @@ export class Deck {
   public name: string;
   public description: string;
   public characacter: string;
-  public cards: Card[];
+  public cards: Card[] = [];
 }

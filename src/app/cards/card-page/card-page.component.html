@@ -1,14 +1,14 @@
 <div class="container mx-auto">
     <app-subtitle class="cursor-as-pointer" (click)="toggleStatus('attack')" [title]="'Attack'"></app-subtitle>
     <div *ngIf="status.attack">
-        <app-cards-list [cards]="attacks"></app-cards-list>
+        <app-cards-list [cards]="filterByType('Attack')"></app-cards-list>
     </div>
     <app-subtitle class="cursor-as-pointer" (click)="toggleStatus('skill')" [title]="'Skill'"></app-subtitle>
     <div *ngIf="status.skill">
-        <app-cards-list [cards]="skills"></app-cards-list>
+        <app-cards-list [cards]="filterByType('Skill')"></app-cards-list>
     </div>
     <app-subtitle class="cursor-as-pointer" (click)="toggleStatus('power')" [title]="'Power'"></app-subtitle>
     <div *ngIf="status.power">
-        <app-cards-list [cards]="powers"></app-cards-list>
+        <app-cards-list [cards]="filterByType('Power')"></app-cards-list>
     </div>
 </div>

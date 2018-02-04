@@ -5,20 +5,23 @@
       <img class="img-responsive" [src]="'/assets/images/standard/characters/'+deckService.deck.characacter+'Button.png'" [alt]="deckService.deck.characacter">
     </div>
   </div>
+  <ul>
+    <li *ngFor="let card of deckService.deck.cards">{{card.name}}</li>
+  </ul>
   <!--<div>-->
-    <!--<h3><span class="theme-title-small">Attacks</span></h3>-->
+    <!--<h3><span class="theme-title-cards">Attacks</span></h3>-->
     <!--<div>yo</div>-->
   <!--</div>-->
   <!--<div>-->
-    <!--<h3><span class="theme-title-small">Skills</span></h3>-->
+    <!--<h3><span class="theme-title-cards">Skills</span></h3>-->
     <!--<div>yo</div>-->
   <!--</div>-->
   <!--<div>-->
-    <!--<h3><span class="theme-title-small">Powers</span></h3>-->
+    <!--<h3><span class="theme-title-cards">Powers</span></h3>-->
     <!--<div>yo</div>-->
   <!--</div>-->
   <!--<div>-->
-    <!--<h3><span class="theme-title-small">Relics</span></h3>-->
+    <!--<h3><span class="theme-title-cards">Relics</span></h3>-->
     <!--<div>yo</div>-->
   <!--</div>-->
 </div>

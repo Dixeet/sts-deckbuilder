@@ -10,11 +10,18 @@ import { DeckBuilderStepMetadataComponent } from './deck-builder-step-metadata/d
 import { DeckBuilderStepFinalComponent } from './deck-builder-step-final/deck-builder-step-final.component';
 import { DeckBuilderContentTitleComponent } from './deck-builder-content-title/deck-builder-content-title.component';
 import {CardsService} from '../../cards/cards.service';
+import {MatButtonModule, MatCardModule, MatIconModule, MatTooltipModule} from '@angular/material';
+import {OrderModule} from 'ngx-order-pipe';
 
 @NgModule({
   imports: [
     CommonModule,
     DeckBuilderRoutingModule,
+    MatCardModule,
+    MatButtonModule,
+    OrderModule,
+    MatIconModule,
+    MatTooltipModule
   ],
   declarations: [
     DeckBuilderContentComponent,

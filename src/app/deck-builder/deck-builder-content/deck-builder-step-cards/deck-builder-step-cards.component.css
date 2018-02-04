@@ -1,0 +1,90 @@
+mat-card {
+    text-align: center;
+    padding: 15px 24px 24px 24px !important;
+    border: 1px solid dimgrey;
+    border-radius: 5px !important;
+    cursor: grab;
+}
+
+mat-card-header > div.mat-card-header-text {
+    margin: 0 auto ;
+}
+
+mat-card-content > p {
+    vertical-align: middle;
+}
+
+mat-card-content {
+    min-height: 60px;
+    display: flex !important;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 -12px !important;
+    color: white;
+    /*padding: 5px;*/
+    /*border: 1px solid dimgrey;*/
+    /*background-color: #212121;*/
+    /*border-radius: 10px;*/
+}
+
+.green, .energy.green > span {
+    color: lawngreen;
+}
+
+.energy {
+    width: 40px;
+    height: 40px;
+    background: url('/assets/images/standard/energy/energy.png') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.energy > span {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    font-weight: 500;
+    /*color: #424242;*/
+    /*text-shadow: -2px 0 #424242, 0 2px #424242, 2px 0 #424242, 0 -2px #424242;*/
+    text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+    color: white;
+    font-size: 20px;
+}
+
+.rare {
+    color: gold;
+    border-color: gold;
+}
+
+.uncommon {
+    color: rgb(132, 255, 248);
+    border-color: rgb(132, 255, 248);
+}
+
+.card {
+    width: 200px;
+}
+
+.step-card-action > button {
+    min-width: 0;
+    color: dimgrey;
+}
+
+.step-card-action .add-card {
+    color: #00e900;
+}
+
+.step-card-action .up-card {
+    color: #44e9cf;
+}
+
+.step-card-action .down-card {
+    color: #ff6a59;
+}
+
+.step-card-action .important-card {
+    color: gold;
+}

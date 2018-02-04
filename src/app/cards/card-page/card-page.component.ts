@@ -13,9 +13,6 @@ import {Card} from '../../share/card';
 export class CardPageComponent implements OnInit {
   url;
   cards: Card[] = [];
-  attacks: Card[] = [];
-  skills: Card[] = [];
-  powers: Card[] = [];
   status = {
     attack: true,
     skill: true,
@@ -27,26 +24,21 @@ export class CardPageComponent implements OnInit {
     this.titleService.setTitle(`${this.url} cards`);
   }
 
+  public filterByType(type) {
+    let filteredCards = [];
+    if (this.cards && this.cards.length > 0) {
+      filteredCards = this.cards.filter(card => {
+        if (card.type === type) {
+          return card;
+        }
+      });
+    }
+    return filteredCards;
+  }
+
   private getCurrentCollectionCards() {
     this.cardsService.getAllCards(this.url).subscribe(cards => {
       this.cards = cards;
-      this.assignType();
-    });
-  }
-
-  private assignType() {
-    this.cards.forEach(card => {
-      switch (card.type) {
-        case 'Attack':
-          this.attacks.push(card);
-          break;
-        case 'Power':
-          this.powers.push(card);
-          break;
-        case 'Skill':
-          this.skills.push(card);
-          break;
-      }
     });
   }
 
@@ -56,6 +48,7 @@ export class CardPageComponent implements OnInit {
 
   ngOnInit() {
     this.getCurrentCollectionCards();
+    // setTimeout(() => this.cards.splice(0, 1), 2000);
   }
 
 }

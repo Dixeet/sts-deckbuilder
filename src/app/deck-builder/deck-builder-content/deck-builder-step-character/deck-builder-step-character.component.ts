@@ -20,7 +20,7 @@ export class DeckBuilderStepCharacterComponent implements OnInit {
   }
 
   ngOnInit() {
-    // this.deckService.reset();
+    setTimeout(() => this.chooseCharacter('silent'), 500);
   }
 
 }
