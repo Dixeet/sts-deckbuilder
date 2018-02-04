@@ -1,5 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {DeckBuilderService} from '../../deck-builder.service';
+import {Card} from '../../../share/card';
+import {CardsService} from '../../../cards/cards.service';
 
 @Component({
   selector: 'app-deck-builder-step-cards',
@@ -9,9 +11,11 @@ import {DeckBuilderService} from '../../deck-builder.service';
 export class DeckBuilderStepCardsComponent implements OnInit {
 
   @Input() stepper;
-  constructor(public deckService: DeckBuilderService) { }
+  cards: Card[];
+  constructor(public deckService: DeckBuilderService, private cardService: CardsService) { }
 
   ngOnInit() {
+    this.cardService.getAllCards(this.deckService.deck.characacter).subscribe(cards => this.cards = cards);
   }
 
 }

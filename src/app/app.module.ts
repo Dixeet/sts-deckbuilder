@@ -5,10 +5,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { AbstractDataService } from './core/abstract-data.service';
 import { CoreModule } from './core/core.module';
-import { CardsModule } from './cards/cards.module';
-import { RelicsModule } from './relics/relics.module';
-import { DeckViewerModule } from './deck-viewer/deck-viewer.module';
-import {DeckBuilderModule} from './deck-builder/deck-builder.module';
 
 
 @NgModule({
@@ -18,10 +14,6 @@ import {DeckBuilderModule} from './deck-builder/deck-builder.module';
     BrowserAnimationsModule,
     HttpClientModule,
     CoreModule,
-    CardsModule,
-    RelicsModule,
-    DeckBuilderModule,
-    DeckViewerModule,
   ],
   providers: [AbstractDataService],
   bootstrap: [AppComponent]

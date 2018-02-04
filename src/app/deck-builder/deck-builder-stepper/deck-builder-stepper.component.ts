@@ -16,6 +16,8 @@ export class DeckBuilderStepperComponent implements OnInit {
   @ViewChild('step1') step1: MatStep;
   @ViewChild('step2') step2: MatStep;
   @ViewChild('step3') step3: MatStep;
+  @ViewChild('step4') step4: MatStep;
+  @ViewChild('step5') step5: MatStep;
 
   constructor(private deckService: DeckBuilderService, private route: ActivatedRoute, private router: Router) {
     this.subscribeRouteChange();
@@ -43,10 +45,12 @@ export class DeckBuilderStepperComponent implements OnInit {
   }
 
   onStepChange($event) {
-    console.log('step event');
     if ($event.selectedIndex !== this.currentStepUrl ) {
-      console.log('changing route');
       this.router.navigate(['/deck/builder/' + $event.selectedIndex] );
+    }
+    if ( $event.selectedIndex > 0 && !this.deckService.deck.characacter) {
+      $event.selectedStep.interacted = false;
+      $event.selectedStep.completed = false;
     }
 
   }

@@ -1,4 +1,4 @@
-import {Component, OnInit, ViewChild, AfterViewInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {TitleService} from '../core/title.service';
 import {DeckBuilderService} from './deck-builder.service';
 

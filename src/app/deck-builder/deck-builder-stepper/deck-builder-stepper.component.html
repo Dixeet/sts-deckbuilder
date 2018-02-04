@@ -1,16 +1,22 @@
 <div class="deck-build-stepper">
-  <mat-vertical-stepper (selectionChange)="onStepChange($event)" #stepper>
-    <mat-step #step0 label="Character">
-      <small>Choose your character</small>
-    </mat-step>
-    <mat-step #step1 label="Cards">
-      <small>You can upgrade them and mark them important for your build</small>
-    </mat-step>
-    <mat-step #step2 label="Neutral cards">
-      <small>You can upgrade them and mark them important for your build</small>
-    </mat-step>
-    <mat-step #step3 label="Relics">
-      <small>You can mark them important for your build</small>
-    </mat-step>
-  </mat-vertical-stepper>
+    <mat-vertical-stepper (selectionChange)="onStepChange($event)" #stepper>
+        <mat-step #step0 label="Character">
+            <small>Choose your character</small>
+        </mat-step>
+        <mat-step #step1 label="Cards">
+            <small>You can upgrade them and mark them important for your build</small>
+        </mat-step>
+        <mat-step #step2 label="Neutral cards">
+            <small>You can upgrade them and mark them important for your build</small>
+        </mat-step>
+        <mat-step #step3 label="Relics">
+            <small>You can mark them important for your build</small>
+        </mat-step>
+        <mat-step #step4 label="Additionnal Data">
+            <small>Add a title and a description</small>
+        </mat-step>
+        <mat-step #step5 label="Preview">
+            <small>Preview and generate build's code</small>
+        </mat-step>
+    </mat-vertical-stepper>
 </div>

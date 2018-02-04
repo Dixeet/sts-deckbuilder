@@ -1,8 +1,7 @@
-import {MatStep, MatStepper} from '@angular/material';
+import { MatStepper } from '@angular/material';
 
 export class DeckStepper {
   public stepperObject: MatStepper;
-  public firstStep: MatStep;
 
   constructor() {}
 
@@ -14,7 +13,4 @@ export class DeckStepper {
     this.stepperObject.previous();
   }
 
-  public selectFirstStep(): void {
-    this.firstStep.select();
-  }
 }
