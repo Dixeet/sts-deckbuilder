@@ -40,6 +40,10 @@ export class DeckBuilderService {
     this.deck.cards[index].unmarkImportant();
   }
 
+  public removeCard(index): void {
+    this.deck.cards.splice(index, 1);
+  }
+
   public setCharacter(character): void {
     this.deck.characacter = character;
   }

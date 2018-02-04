@@ -5,3 +5,61 @@
 .character-img {
     max-width: 50px;
 }
+
+.deck-builder-current-deck mat-list-item {
+    padding: 5px 0;
+    height: auto !important;
+    background-color: #212121;
+    border-color: dimgrey;
+    margin-bottom: 2px;
+}
+
+.current-deck-action > button {
+    min-width: 0;
+    height: 18px;
+    color: dimgrey;
+    padding: 0 20px;
+}
+
+.current-deck-action .add-card {
+    color: #00e900;
+}
+
+.current-deck-action .up-card {
+    color: #44e9cf;
+}
+
+.current-deck-action .down-card {
+    color: #ff6a59;
+}
+
+.current-deck-action .important-card {
+    color: gold;
+}
+.current-deck-action .material-icons {
+    font-size: 18px !important;
+}
+
+.current-deck-action .mat-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.current-deck-action .mat-button-wrapper {
+    line-height: 20px !important;
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+
+.deck-builder-current-deck .delete-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: -5px 0;
+    padding: 0 10px;
+    min-width: 0;
+    color: #ff513e;
+}
+

@@ -35,4 +35,73 @@
         </div>
     </div>
 
+    <h2 class="mx3"><span class="theme-title-small">Skill</span></h2>
+    <div class="mx2 flex flex-wrap justify-between content-stretch">
+        <div class="card mb2 px1" *ngFor="let card of filterByType('Skill') | orderBy: 'name'">
+            <mat-card [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">
+                <mat-card-header>
+                    <div class="energy" *ngIf="card.current.energy" [ngClass]="{'green': card.isUpgraded && card.upgraded.energy != card.base.energy }">
+                        <span>{{card.current.energy}}</span>
+                    </div>
+                    <mat-card-title [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">{{card.name}}<span *ngIf="card.isUpgraded"> +</span></mat-card-title>
+                </mat-card-header>
+                <img mat-card-image [src]="baseImgSrc + card.camelizeName + '.png'" [alt]="card.name">
+                <mat-card-content>
+                    <p>
+                        {{card.current.description}}
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <div class="step-card-action flex">
+                        <button (click)="card.toggleUpgrade()" matTooltip="{{card.isUpgraded ? 'Downgrade' : 'Upgrade'}}"
+                                [ngClass]="{'up-card': !card.isUpgraded, 'down-card': card.isUpgraded}" mat-button>
+                            <mat-icon *ngIf="!card.isUpgraded">vertical_align_top</mat-icon>
+                            <mat-icon *ngIf="card.isUpgraded">vertical_align_bottom</mat-icon>
+                        </button>
+                        <button (click)="card.toggleImportant()" matTooltip="{{card.isImportant ? 'Unmark as important' : 'Mark as important'}}"
+                                [ngClass]="{'important-card': card.isImportant}" mat-button>
+                            <mat-icon *ngIf="!card.isImportant">star_border</mat-icon>
+                            <mat-icon *ngIf="card.isImportant">star</mat-icon>
+                        </button>
+                        <button (click)="deckService.addCard(card)" matTooltip="Add" class="add-card" mat-button><mat-icon>playlist_add</mat-icon></button>
+                    </div>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
+
+    <h2 class="mx3"><span class="theme-title-small">Power</span></h2>
+    <div class="mx2 flex flex-wrap justify-between content-stretch">
+        <div class="card mb2 px1" *ngFor="let card of filterByType('Power') | orderBy: 'name'">
+            <mat-card [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">
+                <mat-card-header>
+                    <div class="energy" *ngIf="card.current.energy" [ngClass]="{'green': card.isUpgraded && card.upgraded.energy != card.base.energy }">
+                        <span>{{card.current.energy}}</span>
+                    </div>
+                    <mat-card-title [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">{{card.name}}<span *ngIf="card.isUpgraded"> +</span></mat-card-title>
+                </mat-card-header>
+                <img mat-card-image [src]="baseImgSrc + card.camelizeName + '.png'" [alt]="card.name">
+                <mat-card-content>
+                    <p>
+                        {{card.current.description}}
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <div class="step-card-action flex">
+                        <button (click)="card.toggleUpgrade()" matTooltip="{{card.isUpgraded ? 'Downgrade' : 'Upgrade'}}"
+                                [ngClass]="{'up-card': !card.isUpgraded, 'down-card': card.isUpgraded}" mat-button>
+                            <mat-icon *ngIf="!card.isUpgraded">vertical_align_top</mat-icon>
+                            <mat-icon *ngIf="card.isUpgraded">vertical_align_bottom</mat-icon>
+                        </button>
+                        <button (click)="card.toggleImportant()" matTooltip="{{card.isImportant ? 'Unmark as important' : 'Mark as important'}}"
+                                [ngClass]="{'important-card': card.isImportant}" mat-button>
+                            <mat-icon *ngIf="!card.isImportant">star_border</mat-icon>
+                            <mat-icon *ngIf="card.isImportant">star</mat-icon>
+                        </button>
+                        <button (click)="deckService.addCard(card)" matTooltip="Add" class="add-card" mat-button><mat-icon>playlist_add</mat-icon></button>
+                    </div>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
 </div>

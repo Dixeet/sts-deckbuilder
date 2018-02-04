@@ -3,7 +3,7 @@
     <div class="energy" *ngIf="card.current.energy" [ngClass]="{'green': card.isUpgraded && card.upgraded.energy != card.base.energy }">
       <span>{{card.current.energy}}</span>
     </div>
-    <mat-card-title [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">{{card.name}}<span *ngIf="upgrade"> +</span></mat-card-title>
+    <mat-card-title [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">{{card.name}}<span *ngIf="card.isUpgraded"> +</span></mat-card-title>
   </mat-card-header>
   <img mat-card-image [src]="baseImgSrc + card.camelizeName + '.png'" [alt]="card.name">
   <mat-card-content>

@@ -5,9 +5,27 @@
       <img class="img-responsive" [src]="'/assets/images/standard/characters/'+deckService.deck.characacter+'Button.png'" [alt]="deckService.deck.characacter">
     </div>
   </div>
-  <ul>
-    <li *ngFor="let card of deckService.deck.cards">{{card.name}}</li>
-  </ul>
+  <mat-list>
+    <mat-list-item *ngFor="let card of deckService.deck.cards">
+      <img mat-list-avatar [src]="baseImgSrc + card.camelizeName + '.png'" alt="card.name">
+      <h4 matLine>{{card.name}}<span *ngIf="card.isUpgraded"> +</span></h4>
+      <div matLine>
+        <div class="current-deck-action flex">
+          <button (click)="card.toggleUpgrade()" matTooltip="{{card.isUpgraded ? 'Downgrade' : 'Upgrade'}}"
+                  [ngClass]="{'up-card': !card.isUpgraded, 'down-card': card.isUpgraded}" mat-button>
+            <mat-icon *ngIf="!card.isUpgraded">vertical_align_top</mat-icon>
+            <mat-icon *ngIf="card.isUpgraded">vertical_align_bottom</mat-icon>
+          </button>
+          <button (click)="card.toggleImportant()" matTooltip="{{card.isImportant ? 'Unmark as important' : 'Mark as important'}}"
+                  [ngClass]="{'important-card': card.isImportant}" mat-button>
+            <mat-icon *ngIf="!card.isImportant">star_border</mat-icon>
+            <mat-icon *ngIf="card.isImportant">star</mat-icon>
+          </button>
+        </div>
+      </div>
+      <button (click)="deckService.removeCard(index)" mat-button class="delete-button"><mat-icon>delete_forever</mat-icon></button>
+    </mat-list-item>
+  </mat-list>
   <!--<div>-->
     <!--<h3><span class="theme-title-cards">Attacks</span></h3>-->
     <!--<div>yo</div>-->
