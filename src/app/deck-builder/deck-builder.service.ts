@@ -1,16 +1,23 @@
 import {Injectable} from '@angular/core';
 import {Deck} from './deck';
+import {DeckStepper} from './deck-stepper';
 
 @Injectable()
 export class DeckBuilderService {
   public deck: Deck;
+  public stepper: DeckStepper;
 
   constructor() {
     this.deck = new Deck();
+    this.stepper = new DeckStepper();
   }
 
   public reset(): void {
     this.deck = new Deck();
+  }
+
+  public setStepper(stepper): void {
+    this.stepper.stepperObject = stepper;
   }
 
   public addCard(card): void {

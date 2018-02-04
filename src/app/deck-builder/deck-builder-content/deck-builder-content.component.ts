@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {MatVerticalStepper} from '@angular/material';
+import {DeckBuilderService} from '../deck-builder.service';
 
 @Component({
   selector: 'app-deck-builder-content',
@@ -8,8 +8,9 @@ import {MatVerticalStepper} from '@angular/material';
 })
 export class DeckBuilderContentComponent implements OnInit {
 
-  @Input() stepper: MatVerticalStepper;
-  constructor() { }
+  constructor(private deckService: DeckBuilderService) {
+
+  }
 
   ngOnInit() {
   }

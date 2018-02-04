@@ -1,5 +1,7 @@
-import {Component, Input, OnInit} from '@angular/core';
-import {DeckBuilderService} from '../deck-builder.service';
+import {Component, OnInit} from '@angular/core';
+import {DeckBuilderService} from '../../deck-builder.service';
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+
 
 @Component({
   selector: 'app-deck-builder-step-character',
@@ -8,18 +10,17 @@ import {DeckBuilderService} from '../deck-builder.service';
 })
 export class DeckBuilderStepCharacterComponent implements OnInit {
 
-  @Input() stepper;
-  constructor(private deckService: DeckBuilderService) {
+  constructor(private deckService: DeckBuilderService, private router: Router) {
   }
 
   chooseCharacter(character): void {
     this.deckService.reset();
     this.deckService.setCharacter(character);
-    this.stepper.next();
-    console.log(this.deckService.deck);
+    this.deckService.stepper.next();
   }
 
   ngOnInit() {
+    // this.deckService.reset();
   }
 
 }

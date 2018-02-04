@@ -1,6 +1,6 @@
 import {Component, OnInit, ViewChild, AfterViewInit} from '@angular/core';
 import {TitleService} from '../core/title.service';
-import {DeckBuilderStepperComponent} from './deck-builder-stepper/deck-builder-stepper.component';
+import {DeckBuilderService} from './deck-builder.service';
 
 @Component({
   selector: 'app-deck-builder',
@@ -8,14 +8,13 @@ import {DeckBuilderStepperComponent} from './deck-builder-stepper/deck-builder-s
   styleUrls: ['./deck-builder.component.css']
 })
 export class DeckBuilderComponent implements OnInit {
-  @ViewChild('stepper') mainStepper: DeckBuilderStepperComponent;
 
-  constructor(private titleService: TitleService) {
+  constructor(private titleService: TitleService, private deckService: DeckBuilderService) {
     this.titleService.setTitle('');
   }
 
   ngOnInit() {
-    // this.sidenav.open();
+    this.deckService.reset();
   }
 
 

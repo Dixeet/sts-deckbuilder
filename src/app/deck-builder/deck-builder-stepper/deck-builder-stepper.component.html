@@ -1,15 +1,15 @@
 <div class="deck-build-stepper">
-  <mat-vertical-stepper #stepper>
-    <mat-step label="Character">
+  <mat-vertical-stepper (selectionChange)="onStepChange($event)" #stepper>
+    <mat-step #step0 label="Character">
       <small>Choose your character</small>
     </mat-step>
-    <mat-step label="Cards">
+    <mat-step #step1 label="Cards">
       <small>You can upgrade them and mark them important for your build</small>
     </mat-step>
-    <mat-step label="Neutral cards">
+    <mat-step #step2 label="Neutral cards">
       <small>You can upgrade them and mark them important for your build</small>
     </mat-step>
-    <mat-step label="Relics">
+    <mat-step #step3 label="Relics">
       <small>You can mark them important for your build</small>
     </mat-step>
   </mat-vertical-stepper>

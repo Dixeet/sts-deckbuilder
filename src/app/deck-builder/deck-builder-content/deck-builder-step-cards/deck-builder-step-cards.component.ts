@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {DeckBuilderService} from '../deck-builder.service';
+import {DeckBuilderService} from '../../deck-builder.service';
 
 @Component({
   selector: 'app-deck-builder-step-cards',
