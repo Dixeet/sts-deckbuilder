@@ -1,5 +1,5 @@
 ///<reference path="../../../node_modules/rxjs/observable/forkJoin.d.ts"/>
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 import {TitleService} from '../core/title.service';
 import {ActivatedRoute} from '@angular/router';
 import {DeckViewerService} from './deck-viewer.service';
@@ -7,7 +7,8 @@ import {DeckViewerService} from './deck-viewer.service';
 @Component({
   selector: 'app-deck-viewer',
   templateUrl: './deck-viewer.component.html',
-  styleUrls: ['./deck-viewer.component.css']
+  styleUrls: ['./deck-viewer.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class DeckViewerComponent implements OnInit {
 
