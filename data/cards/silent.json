@@ -1084,7 +1084,7 @@
     "name": "Well-Laid Plans",
     "camelizeName": "well-LaidPlans",
     "rarity": "Uncommon",
-    "type": "Skill",
+    "type": "Power",
     "base": {
       "energy": "0",
       "description": "At the end of your turn, Retain up to 1 card."
