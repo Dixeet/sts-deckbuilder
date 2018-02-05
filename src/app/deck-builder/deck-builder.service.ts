@@ -1,6 +1,8 @@
 import {Injectable} from '@angular/core';
 import {Deck} from './deck';
 import {DeckStepper} from './deck-stepper';
+import {Card} from '../share/card';
+import {Relic} from '../share/relic';
 
 @Injectable()
 export class DeckBuilderService {
@@ -20,28 +22,20 @@ export class DeckBuilderService {
     this.stepper.stepperObject = stepper;
   }
 
-  public addCard(card): void {
-    this.deck.cards.push(card);
-  }
-
-  public upgrade(index): void {
-    this.deck.cards[index].upgrade();
-  }
-
-  public downgrade(index): void {
-    this.deck.cards[index].downgrade();
-  }
-
-  public markImportant(index): void {
-    this.deck.cards[index].markImportant();
-  }
-
-  public  unmarkImportant(index): void {
-    this.deck.cards[index].unmarkImportant();
+  public addCard(card: Card): void {
+    this.deck.cards.push(new Card(card));
   }
 
   public removeCard(index): void {
     this.deck.cards.splice(index, 1);
+  }
+
+  public addRelic(relic: Relic): void {
+    this.deck.relics.push(new Relic(relic));
+  }
+
+  public removeRelic(index): void {
+    this.deck.relics.splice(index, 1);
   }
 
   public setCharacter(character): void {

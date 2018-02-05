@@ -57,5 +57,7 @@ export class DeckBuilderStepperComponent implements OnInit {
 
   ngOnInit() {
     this.deckService.setStepper(this.stepper);
+    //TODO DO NOT FORGET TO SUPPRESS THIS
+    setTimeout(() => this.step5.select(), 500);
   }
 }

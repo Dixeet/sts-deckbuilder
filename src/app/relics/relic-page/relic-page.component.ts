@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {TitleService} from '../../core/title.service';
 import {RelicsService} from '../relics.service';
+import {Relic} from '../../share/relic';
 
 @Component({
   selector: 'app-relic-page',
@@ -8,14 +9,14 @@ import {RelicsService} from '../relics.service';
   styleUrls: ['./relic-page.component.css']
 })
 export class RelicPageComponent implements OnInit {
-  relics: any[] = [];
-  starter: any[] = [];
-  common: any[] = [];
-  uncommon: any[] = [];
-  rare: any[] = [];
-  boss: any[] = [];
-  event: any[] = [];
-  shop: any[] = [];
+  relics: Relic[] = [];
+  starter: Relic[] = [];
+  common: Relic[] = [];
+  uncommon: Relic[] = [];
+  rare: Relic[] = [];
+  boss: Relic[] = [];
+  event: Relic[] = [];
+  shop: Relic[] = [];
   status = {
     starter: true,
     common: true,

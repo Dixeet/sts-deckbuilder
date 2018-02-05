@@ -1,3 +1,18 @@
-<p>
-  deck-builder-step-metadata works!
-</p>
+<app-deck-builder-content-title [title]="'Add a title and some description'"></app-deck-builder-content-title>
+<div class="mx3">
+  <form class="max-width-4 mx-auto">
+    <mat-form-field class="">
+      <input [(ngModel)]="deckService.deck.title" maxlength="60" [ngModelOptions]="{standalone: true}" matInput placeholder="Title">
+      <mat-hint align="end">{{deckService.deck.title.length}} / 300</mat-hint>
+    </mat-form-field>
+
+    <mat-form-field class="">
+      <textarea [(ngModel)]="deckService.deck.description" maxlength="300" [ngModelOptions]="{standalone: true}" matInput placeholder="Leave a description"></textarea>
+      <mat-hint align="end">{{deckService.deck.description.length}} / 300</mat-hint>
+    </mat-form-field>
+    <div class="mt2">
+      <button (click)="deckService.stepper.next()" class="mt2 right" mat-raised-button color="primary">Continue</button>
+    </div>
+  </form>
+
+</div>

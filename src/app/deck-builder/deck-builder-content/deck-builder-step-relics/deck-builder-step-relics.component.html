@@ -1,3 +1,134 @@
-<p>
-  deck-builder-step-relics works!
-</p>
+<app-deck-builder-content-title [title]="'Choose your neutral cards'"></app-deck-builder-content-title>
+<h2 class="mx3"><span class="theme-title-small">Starter</span></h2>
+<div class="mx2 flex flex-wrap ">
+    <div *ngFor="let relic of filterByType('Starter') | orderBy: 'name'" class="pr2 mb3">
+        <div matTooltip="{{relic.description}}" class="relic cursor-as-pointer">
+            <img [src]="baseImgSrc + relic.camelizeName + '.png'" [alt]="relic.name">
+            <div class="name">
+                <div>{{relic.name}}</div>
+                <div class="relic-list flex justify-center">
+                    <button (click)="relic.toggleImportant()"
+                            [ngClass]="{'important-relic': relic.isImportant}" mat-button>
+                        <mat-icon *ngIf="!relic.isImportant">star_border</mat-icon>
+                        <mat-icon *ngIf="relic.isImportant">star</mat-icon>
+                    </button>
+                    <button (click)="deckService.addRelic(relic)" class="add-relic" mat-button><mat-icon>playlist_add</mat-icon></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<h2 class="mx3"><span class="theme-title-small">Common</span></h2>
+<div class="mx2 flex flex-wrap ">
+    <div *ngFor="let relic of filterByType('Common') | orderBy: 'name'" class="pr2 mb3">
+        <div matTooltip="{{relic.description}}" class="relic cursor-as-pointer">
+            <img [src]="baseImgSrc + relic.camelizeName + '.png'" [alt]="relic.name">
+            <div class="name">
+                <div>{{relic.name}}</div>
+                <div class="relic-list flex justify-center">
+                    <button (click)="relic.toggleImportant()"
+                            [ngClass]="{'important-relic': relic.isImportant}" mat-button>
+                        <mat-icon *ngIf="!relic.isImportant">star_border</mat-icon>
+                        <mat-icon *ngIf="relic.isImportant">star</mat-icon>
+                    </button>
+                    <button (click)="deckService.addRelic(relic)" class="add-relic" mat-button><mat-icon>playlist_add</mat-icon></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<h2 class="mx3"><span class="theme-title-small">Uncommon</span></h2>
+<div class="mx2 flex flex-wrap ">
+    <div *ngFor="let relic of filterByType('Uncommon') | orderBy: 'name'" class="pr2 mb3">
+        <div matTooltip="{{relic.description}}" class="relic cursor-as-pointer">
+            <img [src]="baseImgSrc + relic.camelizeName + '.png'" [alt]="relic.name">
+            <div class="name">
+                <div>{{relic.name}}</div>
+                <div class="relic-list flex justify-center">
+                    <button (click)="relic.toggleImportant()"
+                            [ngClass]="{'important-relic': relic.isImportant}" mat-button>
+                        <mat-icon *ngIf="!relic.isImportant">star_border</mat-icon>
+                        <mat-icon *ngIf="relic.isImportant">star</mat-icon>
+                    </button>
+                    <button (click)="deckService.addRelic(relic)" class="add-relic" mat-button><mat-icon>playlist_add</mat-icon></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<h2 class="mx3"><span class="theme-title-small">Rare</span></h2>
+<div class="mx2 flex flex-wrap ">
+    <div *ngFor="let relic of filterByType('Rare') | orderBy: 'name'" class="pr2 mb3">
+        <div matTooltip="{{relic.description}}" class="relic cursor-as-pointer">
+            <img [src]="baseImgSrc + relic.camelizeName + '.png'" [alt]="relic.name">
+            <div class="name">
+                <div>{{relic.name}}</div>
+                <div class="relic-list flex justify-center">
+                    <button (click)="relic.toggleImportant()"
+                            [ngClass]="{'important-relic': relic.isImportant}" mat-button>
+                        <mat-icon *ngIf="!relic.isImportant">star_border</mat-icon>
+                        <mat-icon *ngIf="relic.isImportant">star</mat-icon>
+                    </button>
+                    <button (click)="deckService.addRelic(relic)" class="add-relic" mat-button><mat-icon>playlist_add</mat-icon></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<h2 class="mx3"><span class="theme-title-small">Boss</span></h2>
+<div class="mx2 flex flex-wrap ">
+    <div *ngFor="let relic of filterByType('Boss') | orderBy: 'name'" class="pr2 mb3">
+        <div matTooltip="{{relic.description}}" class="relic cursor-as-pointer">
+            <img [src]="baseImgSrc + relic.camelizeName + '.png'" [alt]="relic.name">
+            <div class="name">
+                <div>{{relic.name}}</div>
+                <div class="relic-list flex justify-center">
+                    <button (click)="relic.toggleImportant()"
+                            [ngClass]="{'important-relic': relic.isImportant}" mat-button>
+                        <mat-icon *ngIf="!relic.isImportant">star_border</mat-icon>
+                        <mat-icon *ngIf="relic.isImportant">star</mat-icon>
+                    </button>
+                    <button (click)="deckService.addRelic(relic)" class="add-relic" mat-button><mat-icon>playlist_add</mat-icon></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<h2 class="mx3"><span class="theme-title-small">Event</span></h2>
+<div class="mx2 flex flex-wrap ">
+    <div *ngFor="let relic of filterByType('Event') | orderBy: 'name'" class="pr2 mb3">
+        <div matTooltip="{{relic.description}}" class="relic cursor-as-pointer">
+            <img [src]="baseImgSrc + relic.camelizeName + '.png'" [alt]="relic.name">
+            <div class="name">
+                <div>{{relic.name}}</div>
+                <div class="relic-list flex justify-center">
+                    <button (click)="relic.toggleImportant()"
+                            [ngClass]="{'important-relic': relic.isImportant}" mat-button>
+                        <mat-icon *ngIf="!relic.isImportant">star_border</mat-icon>
+                        <mat-icon *ngIf="relic.isImportant">star</mat-icon>
+                    </button>
+                    <button (click)="deckService.addRelic(relic)" class="add-relic" mat-button><mat-icon>playlist_add</mat-icon></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<h2 class="mx3"><span class="theme-title-small">Shop</span></h2>
+<div class="mx2 flex flex-wrap ">
+    <div *ngFor="let relic of filterByType('Shop') | orderBy: 'name'" class="pr2 mb3">
+        <div matTooltip="{{relic.description}}" class="relic cursor-as-pointer">
+            <img [src]="baseImgSrc + relic.camelizeName + '.png'" [alt]="relic.name">
+            <div class="name">
+                <div>{{relic.name}}</div>
+                <div class="relic-list flex justify-center">
+                    <button (click)="relic.toggleImportant()"
+                            [ngClass]="{'important-relic': relic.isImportant}" mat-button>
+                        <mat-icon *ngIf="!relic.isImportant">star_border</mat-icon>
+                        <mat-icon *ngIf="relic.isImportant">star</mat-icon>
+                    </button>
+                    <button (click)="deckService.addRelic(relic)" class="add-relic" mat-button><mat-icon>playlist_add</mat-icon></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

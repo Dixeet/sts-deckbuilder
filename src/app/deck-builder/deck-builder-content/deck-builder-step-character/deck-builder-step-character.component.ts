@@ -20,7 +20,7 @@ export class DeckBuilderStepCharacterComponent implements OnInit {
   }
 
   ngOnInit() {
-    setTimeout(() => this.chooseCharacter('silent'), 500);
+    // setTimeout(() => this.chooseCharacter('silent'), 500);
   }
 
 }

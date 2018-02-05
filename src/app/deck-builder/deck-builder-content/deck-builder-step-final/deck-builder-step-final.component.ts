@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {DeckBuilderService} from '../../deck-builder.service';
 
 @Component({
   selector: 'app-deck-builder-step-final',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DeckBuilderStepFinalComponent implements OnInit {
 
-  constructor() { }
+  public deck;
+  constructor(private deckService: DeckBuilderService) {
+    this.deck = this.deckService.deck;
+  }
 
   ngOnInit() {
   }

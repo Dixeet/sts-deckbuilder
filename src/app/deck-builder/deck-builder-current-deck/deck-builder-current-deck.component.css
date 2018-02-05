@@ -1,5 +1,6 @@
 .deck-builder-current-deck {
     min-width: 250px;
+    max-width: 250px;
 }
 
 .character-img {
@@ -61,5 +62,6 @@
     padding: 0 10px;
     min-width: 0;
     color: #ff513e;
+    border-left: 1px solid #2c2c2c;
 }
 
