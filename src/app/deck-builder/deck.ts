@@ -10,8 +10,8 @@ export class Deck {
   public generatedCode = '';
   public generatedLink = '';
 
-  private buildString = "";
-  private stringSeparator = '££';
+  public buildString = "";
+  public stringSeparator = '££';
 
   public findImportantRelics(): Relic[] {
     return this.relics.filter(relic => relic.isImportant);

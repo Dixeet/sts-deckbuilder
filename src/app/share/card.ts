@@ -13,7 +13,7 @@ export class Card implements CardInterface {
   public isUpgraded = false;
   public isImportant = false;
 
-  constructor(card: CardInterface) {
+  constructor(card?: CardInterface) {
     Object.keys(card).forEach((key) => {
       this[key] = card[key];
     });

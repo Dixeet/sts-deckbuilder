@@ -1,10 +1,15 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import { CardPageComponent } from '../cards/card-page/card-page.component';
-import { RelicPageComponent } from '../relics/relic-page/relic-page.component';
+import {CardPageComponent} from '../cards/card-page/card-page.component';
+import {RelicPageComponent} from '../relics/relic-page/relic-page.component';
 import {DeckViewerComponent} from '../deck-viewer/deck-viewer.component';
 
 const routes: Routes = [
+  {
+    path: '',
+    redirectTo: 'deck/builder',
+    pathMatch: 'full'
+  },
   {path: 'deck/viewer', component: DeckViewerComponent},
   {path: 'ironclad', component: CardPageComponent},
   {path: 'silent', component: CardPageComponent},
@@ -13,8 +18,8 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
-  exports: [ RouterModule ]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
 export class AppRoutingModule {
 }

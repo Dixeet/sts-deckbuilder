@@ -8,7 +8,7 @@ export class Relic implements RelicInterface {
   public description: string;
   public isImportant = false;
 
-  constructor(relic: RelicInterface) {
+  constructor(relic?: RelicInterface) {
     Object.keys(relic).forEach((key) => {
       this[key] = relic[key];
     });
