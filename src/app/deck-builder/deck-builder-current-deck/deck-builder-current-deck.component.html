@@ -1,12 +1,22 @@
 <div class="px2 deck-builder-current-deck">
   <h2 class="theme-title py1 text-center mb1">Current Deck</h2>
-  <h3 *ngIf="deckService.deck.title">{{deckService.deck.title}}</h3>
-  <div *ngIf="deckService.deck.characacter">
-    <div matTooltip="{{deckService.deck.characacter}}" class="character-img cursor-as-pointer">
-      <img class="img-responsive" [src]="'/assets/images/standard/characters/'+deckService.deck.characacter+'Button.png'" [alt]="deckService.deck.characacter">
+  <div class="clearfix ">
+    <div class="left" *ngIf="deckService.deck.characacter">
+      <div matTooltip="{{deckService.deck.characacter}}" class="character-img cursor-as-pointer">
+        <img class="img-responsive" [src]="'/assets/images/standard/characters/'+deckService.deck.characacter+'Button.png'" [alt]="deckService.deck.characacter">
+      </div>
     </div>
+    <h3 class="title-current-deck m0" *ngIf="deckService.deck.title">{{deckService.deck.title}}</h3>
   </div>
-  <div>
+  <div class="clearfix" *ngIf="deckService.deck.generatedLink">
+    <h3 class="mb1"><span class="theme-title-small">Generated link</span></h3>
+    <mat-card>
+      <a class="generated-link" target="_blank" [href]="deckService.deck.generatedLink">
+        {{deckService.deck.generatedLink}}
+      </a>
+    </mat-card>
+  </div>
+  <div class="clearfix">
     <h3 class="mb1"><span class="theme-title-small">Attacks</span></h3>
     <mat-list>
       <mat-list-item *ngFor="let card of filterByType('Attack')">

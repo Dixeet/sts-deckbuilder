@@ -3,13 +3,14 @@ import {Deck} from './deck';
 import {DeckStepper} from './deck-stepper';
 import {Card} from '../share/card';
 import {Relic} from '../share/relic';
+import {AbstractDataService} from '../core/abstract-data.service';
 
 @Injectable()
 export class DeckBuilderService {
   public deck: Deck;
   public stepper: DeckStepper;
 
-  constructor() {
+  constructor(private abstractDataService: AbstractDataService) {
     this.deck = new Deck();
     this.stepper = new DeckStepper();
   }
@@ -40,6 +41,10 @@ export class DeckBuilderService {
 
   public setCharacter(character): void {
     this.deck.characacter = character;
+  }
+
+  public encode(str) {
+    return this.abstractDataService.post('/encode', {toEncode: str});
   }
 
 }

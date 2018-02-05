@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {DeckBuilderComponent} from './deck-builder.component';
 import {
-  MatButtonModule, MatIconModule, MatListModule, MatSidenavModule, MatStepperModule,
+  MatButtonModule, MatCardModule, MatIconModule, MatListModule, MatSidenavModule, MatStepperModule,
   MatTooltipModule
 } from '@angular/material';
 import { DeckBuilderStepperComponent } from './deck-builder-stepper/deck-builder-stepper.component';
@@ -19,7 +19,8 @@ import { DeckBuilderContentModule } from './deck-builder-content/deck-builder-co
     MatTooltipModule,
     MatListModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   declarations: [
     DeckBuilderComponent,

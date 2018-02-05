@@ -16,7 +16,10 @@
             <small>Add a title and a description</small>
         </mat-step>
         <mat-step #step5 label="Preview">
-            <small>Preview and generate build's code</small>
+            <small>Preview and generate build's link</small>
+            <div class="mt3 text-center">
+                <button (click)="generate()" mat-raised-button color="primary">Generate build's link</button>
+            </div>
         </mat-step>
     </mat-vertical-stepper>
 </div>

@@ -2,6 +2,7 @@ import {Component, OnInit, ViewChild} from '@angular/core';
 import {MatStep, MatStepper} from '@angular/material';
 import {DeckBuilderService} from '../deck-builder.service';
 import {ActivatedRoute, Router} from '@angular/router';
+import {AbstractDataService} from '../../core/abstract-data.service';
 
 @Component({
   selector: 'app-deck-builder-stepper',
@@ -44,6 +45,13 @@ export class DeckBuilderStepperComponent implements OnInit {
     }
   }
 
+  public generate() {
+    const buildString = this.deckService.deck.generateBuildString();
+    this.deckService.encode(buildString).subscribe(res => {
+      this.deckService.deck.createLinkAndCode(res);
+    });
+  }
+
   onStepChange($event) {
     if ($event.selectedIndex !== this.currentStepUrl ) {
       this.router.navigate(['/deck/builder/' + $event.selectedIndex] );
@@ -57,7 +65,6 @@ export class DeckBuilderStepperComponent implements OnInit {
 
   ngOnInit() {
     this.deckService.setStepper(this.stepper);
-    //TODO DO NOT FORGET TO SUPPRESS THIS
-    setTimeout(() => this.step5.select(), 500);
+    // setTimeout(() => this.step5.select(), 500);
   }
 }

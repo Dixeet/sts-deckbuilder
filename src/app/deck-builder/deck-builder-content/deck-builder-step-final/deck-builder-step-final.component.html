@@ -1,6 +1,137 @@
 <app-deck-builder-content-title [title]="'Validate your deck'"></app-deck-builder-content-title>
-<div class="mx-auto max-width-3 mt4">
-    <h2 class="mb3"><span class="p1 theme-title">{{deck.title}}</span></h2>
-    <mat-card>{{deck.description}}</mat-card>
-    <h2 class="mt4 mb3"><span class="p1 theme-title">Important</span></h2>
+<div class="mx3 mt4">
+    <div>
+        <h2 class="mb3"><span class="p2 theme-title">{{deck.title}}</span></h2>
+        <mat-card class="max-width-3">{{deck.description}}</mat-card>
+    </div>
+    <div>
+        <h2 class="mt4 mb3"><span class="p1 theme-title">Important</span></h2>
+        <div>
+            <h3><span class="theme-title-small">Relics</span></h3>
+            <div class="flex flex-wrap ">
+                <div *ngFor="let relic of deck.findImportantRelics()" class="pr2 mb3">
+                    <div matTooltip="{{relic.description}}" class="relic cursor-as-pointer">
+                        <img [src]="baseImgRelicSrc + relic.camelizeName + '.png'" [alt]="relic.name">
+                        <div class="name">
+                            <div>{{relic.name}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3><span class="theme-title-small">Cards</span></h3>
+            <div class="mx2 flex flex-wrap justify-between content-stretch">
+                <div class="card mb2 px1" *ngFor="let card of deck.findImportantCards()">
+                    <mat-card [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">
+                        <mat-card-header>
+                            <div class="energy" *ngIf="card.current.energy"
+                                 [ngClass]="{'green': card.isUpgraded && card.upgraded.energy != card.base.energy }">
+                                <span>{{card.current.energy}}</span>
+                            </div>
+                            <mat-card-title
+                                    [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">
+                                {{card.name}}<span *ngIf="card.isUpgraded"> +</span></mat-card-title>
+                        </mat-card-header>
+                        <img mat-card-image [src]="baseImgSrc + card.camelizeName + '.png'" [alt]="card.name">
+                        <mat-card-content>
+                            <p>
+                                {{card.current.description}}
+                            </p>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2 class="mt4 mb3"><span class="p1 theme-title">All relics ({{deck.relics.length}})</span></h2>
+        <div>
+            <div class="flex flex-wrap ">
+                <div *ngFor="let relic of deck.relics" class="pr2 mb3">
+                    <div matTooltip="{{relic.description}}" class="relic cursor-as-pointer">
+                        <img [src]="baseImgRelicSrc + relic.camelizeName + '.png'" [alt]="relic.name">
+                        <div class="name">
+                            <div>{{relic.name}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2 class="mt4 mb3"><span class="p1 theme-title">All cards ({{deck.cards.length}})</span></h2>
+        <div>
+            <h3><span class="theme-title-small">Attacks</span></h3>
+            <div class="mx2 flex flex-wrap justify-between content-stretch">
+                <div class="card mb2 px1" *ngFor="let card of filterCardsByType('Attack')">
+                    <mat-card [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">
+                        <mat-card-header>
+                            <div class="energy" *ngIf="card.current.energy"
+                                 [ngClass]="{'green': card.isUpgraded && card.upgraded.energy != card.base.energy }">
+                                <span>{{card.current.energy}}</span>
+                            </div>
+                            <mat-card-title
+                                    [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">
+                                {{card.name}}<span *ngIf="card.isUpgraded"> +</span></mat-card-title>
+                        </mat-card-header>
+                        <img mat-card-image [src]="baseImgSrc + card.camelizeName + '.png'" [alt]="card.name">
+                        <mat-card-content>
+                            <p>
+                                {{card.current.description}}
+                            </p>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3><span class="theme-title-small">Skills</span></h3>
+            <div class="mx2 flex flex-wrap justify-between content-stretch">
+                <div class="card mb2 px1" *ngFor="let card of filterCardsByType('Skill')">
+                    <mat-card [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">
+                        <mat-card-header>
+                            <div class="energy" *ngIf="card.current.energy"
+                                 [ngClass]="{'green': card.isUpgraded && card.upgraded.energy != card.base.energy }">
+                                <span>{{card.current.energy}}</span>
+                            </div>
+                            <mat-card-title
+                                    [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">
+                                {{card.name}}<span *ngIf="card.isUpgraded"> +</span></mat-card-title>
+                        </mat-card-header>
+                        <img mat-card-image [src]="baseImgSrc + card.camelizeName + '.png'" [alt]="card.name">
+                        <mat-card-content>
+                            <p>
+                                {{card.current.description}}
+                            </p>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3><span class="theme-title-small">Powers</span></h3>
+            <div class="mx2 flex flex-wrap justify-between content-stretch">
+                <div class="card mb2 px1" *ngFor="let card of filterCardsByType('Power')">
+                    <mat-card [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">
+                        <mat-card-header>
+                            <div class="energy" *ngIf="card.current.energy"
+                                 [ngClass]="{'green': card.isUpgraded && card.upgraded.energy != card.base.energy }">
+                                <span>{{card.current.energy}}</span>
+                            </div>
+                            <mat-card-title
+                                    [ngClass]="{'rare': card.rarity === 'Rare', 'uncommon': card.rarity === 'Uncommon'}">
+                                {{card.name}}<span *ngIf="card.isUpgraded"> +</span></mat-card-title>
+                        </mat-card-header>
+                        <img mat-card-image [src]="baseImgSrc + card.camelizeName + '.png'" [alt]="card.name">
+                        <mat-card-content>
+                            <p>
+                                {{card.current.description}}
+                            </p>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

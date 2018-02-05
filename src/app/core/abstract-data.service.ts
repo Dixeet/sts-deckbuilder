@@ -17,4 +17,8 @@ export class AbstractDataService {
     return this.http.get<any[]>(this.baseUrl + url);
   }
 
+  post(url, data): Observable<any> {
+    return this.http.post<any[]>(this.baseUrl + url, data);
+  }
+
 }
